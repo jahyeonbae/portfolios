@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+img{
+    vertical-align: top;
+}
+.hidden{
+    display: none;
+}
+@keyframes tomato{
+    0%{left: -2px;}
+    100%{left: 2px;}
+};
+.title{
+    transition: 1s;
+}
+.title>img:hover{
+    position:relative;
+    animation:tomato.1s infinite;
+    transition: 1s;
+}
+
+@keyframes line{
+    0%{left: 0px;}
+    100%{left: 20px;}
+}

@@ -1,0 +1,220 @@
+.shop4_section{
+    width: 1200px;
+    height: 100%;
+    margin: 0 360px;
+    position: relative;
+    top: -60px;
+    overflow: hidden;
+    .shop4_left{
+        width: 880px;
+        height: 100%;
+        float: left;
+        background-color: #FFF;
+        .sl_top{
+            height: 15%;
+            margin: 20px 0 ;
+            li{
+                width: 48%;
+                float: left;
+                margin-right: 10px;
+                text-align: center;
+                img{
+                    width: 75%;
+                    padding: 10px;
+
+                }
+                span{
+                    display: block;
+                    margin: 10px 0;
+                }
+                span:first-child{
+                    text-transform: uppercase;
+                }
+                button{
+                    padding: 10px;
+                    margin: 20px;
+                }
+            }
+        }
+        .sl_bot{
+            .slb_btn{
+                span{
+                    display: inline-block;
+                    text-align: center;
+                    width: 288px;
+                    height: 50px;
+                    line-height: 50px;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    background-color: #f0f0f0;
+                }
+                span:nth-child(3){
+                    background-color: #8fd614;
+                }
+            }
+            .slb_main{
+                background-color: #8fd614;
+                height: 100%;
+                h4{
+                    font-size: 18px;
+                    height: 50px;
+                    width: 250px;
+                    line-height: 50px;
+                    text-transform: uppercase;
+                    margin: 10px 0 10px 10px;
+                }
+                p{
+                    line-height: 20px;
+                }
+                .sm_top{
+                    ul{padding: 20px 0 20px 20px;}
+                    li{
+                        width: 650px;
+                        height: 80px;
+                        .st_p{
+                            background-image: url('../images/shop/co1.jpg');
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50px;
+                            display: inline-block;
+                        }
+                        .st_p2{
+                            background-image: url('../images/shop/co2.jpg');
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50px;
+                            display: inline-block;
+                        }
+                        .st_to{
+                            background-image: url('../images/main/green_to.png');
+                            background-repeat: no-repeat;
+                            background-size: 50%;
+                            background-position: center;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50px;
+                            display: inline-block;
+                        }
+                        span[class^="st_"]{
+                            float:left;
+                        }
+                        .sp_text{
+                            margin-left: 60px;
+                            background-color: #fff;
+                            border-radius: 10px;
+                            height: 60px;
+                            span{
+                                display: inline-block;
+                                padding: 10px;
+                            }
+                        }
+                    }
+                    li::after{
+                        content:"";
+                        background-image: url('../images/shop/mo.png');
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        position:relative;
+                        top:-20px;
+                        left:655px;
+                        right:0;
+                        bottom:0;
+                    }
+                    li::before{
+                        content:"";
+                        background-image: url('../images/shop/de.png');
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        position:relative;
+                        top:64px;
+                        left:630px;
+                        right:0;
+                        bottom:0;
+                    }
+                    li:nth-child(even){
+                        margin-left: 80px;
+                    }
+                    .sm_text{
+                        position: relative;
+                        h5{
+                            text-transform: uppercase;
+                            padding: 10px;
+                        }
+                        span{
+                            width: 100px;
+                            height: 20px;
+                            display: inline-block;
+                            background-image: url('../images/shop/star.png');
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            position: absolute;
+                            top:10px;
+                            left: 120px;
+
+                        }
+                        input{
+                            width: 600px;
+                            height: 150px;
+                            margin-left: 120px;
+                        }
+                        button{
+                            display: block;
+                            position: relative;
+                            padding: 10px;
+                            left: 380px;
+                            margin-top: 10px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .shop2_right{
+        width: 300px;
+        height: 1100px;
+        margin-left: 900px;
+        background-color: #fff;
+        h4{
+            height: 30px;
+            text-transform: uppercase;
+            background-color: #8fd614;
+            text-align: center;
+            line-height: 30px;
+        }
+        .shr_top{
+            margin-bottom: 10px;
+            li{
+                height: 30px;
+                text-transform: uppercase;
+                font-size: 14px;
+                line-height: 30px;
+                margin-bottom: 5px;
+                text-align: center;
+                padding: 10px;
+                background-color: #f0f0f0;
+            }
+        }
+        .shr_mid{
+            height: 250px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        .shr_bot{
+            height: 250px;
+            overflow: hidden;
+
+        }
+    }
+
+}
