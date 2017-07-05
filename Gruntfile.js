@@ -47,7 +47,7 @@ module.exports = function(grunt) {
             dest: 'farm_dist', // Destination directory
             options: {
               flatten: true,
-              includePath:'html/'
+              includePath:'html'
             }
         }
       }
