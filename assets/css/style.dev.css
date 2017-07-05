@@ -330,7 +330,7 @@ img {
 .wrap .m_top {
   width: 1920px;
   height: 180px;
-  background-image: url('../images/au/au_bg.png');
+  background-image: url('../images/au/au_bg.jpg');
   background-repeat: no-repeat;
   background-position-y: -580px;
   background-size: cover;
@@ -407,7 +407,7 @@ img {
 .wrap .m_top {
   width: 1920px;
   height: 180px;
-  background-image: url('../images/au/au_bg.png');
+  background-image: url('../images/au/au_bg.jpg');
   background-repeat: no-repeat;
   background-position-y: -580px;
   background-size: cover;
@@ -519,7 +519,7 @@ img {
 .wrap .m_top {
   width: 1920px;
   height: 180px;
-  background-image: url('../images/au/au_bg.png');
+  background-image: url('../images/au/au_bg.jpg');
   background-repeat: no-repeat;
   background-position-y: -580px;
   background-size: cover;
@@ -2247,7 +2247,7 @@ img {
 .wrap .m_top {
   width: 1920px;
   height: 180px;
-  background-image: url('../images/au/au_bg.png');
+  background-image: url('../../images/au/au_bg.jpg');
   background-repeat: no-repeat;
   background-position-y: -580px;
   background-size: cover;
@@ -2459,7 +2459,7 @@ img {
 .wrap .m_top {
   width: 1920px;
   height: 180px;
-  background-image: url('../images/au/au_bg.png');
+  background-image: url('../images/au/au_bg.jpg');
   background-repeat: no-repeat;
   background-position-y: -580px;
   background-size: cover;
@@ -3226,7 +3226,7 @@ img {
   /* line 3, assets\less\footer_media.less */
   .footer {
     height: 400px;
-    background-image: url('../images/footer/footer_3.jpg');
+    background-image: url('../../images/footer/footer_3.jpg');
     background-repeat: repeat;
     background-size: contain;
     position: relative;
