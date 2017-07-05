@@ -3694,7 +3694,7 @@ body .wrap .pro-info .title span.line:after {
 /* line 335, assets\less\style.less */
 body .wrap .pro-info .pi {
   position: relative;
-  background-image: url('../images/main/pro-info1.png');
+  background-image: url('../images/main/pro-info1.jpg');
   background-repeat: repeat;
   background-size: 50%;
   height: 400px;
@@ -3919,7 +3919,7 @@ body .wrap .recipe .rec_box .rb_sub {
 /* line 539, assets\less\style.less */
 body .wrap .com {
   overflow: hidden;
-  background-image: url('../images/main/com_re.png');
+  background-image: url('../images/main/com_re.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -4008,14 +4008,14 @@ body .wrap .com .com_sub p:before {
   width: 20px;
   height: 20px;
   display: inline-block;
-  background-image: url(../images/footer/qug.png);
+  background-image: url(../images/footer/qug.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px 10px 0 10px;
 }
 /* line 625, assets\less\style.less */
 body .wrap .blog {
-  background-image: url('../images/main/blog_1.png');
+  background-image: url('../images/main/blog_1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -4114,7 +4114,7 @@ body .wrap .blog ul li p.date:after {
   position: absolute;
   top: 5%;
   right: 10%;
-  background-image: url('../images/footer/chat.png');
+  background-image: url('../images/footer/chat.jpg');
   background-repeat: no-repeat;
 }
 /* line 712, assets\less\style.less */
@@ -4134,7 +4134,7 @@ body .wrap .blog ul li p.read:after {
   height: 15px;
   display: block;
   margin-top: 10px;
-  background-image: url('../images/footer/plus.png');
+  background-image: url('../images/footer/plus.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
