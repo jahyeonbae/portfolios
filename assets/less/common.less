@@ -16,12 +16,13 @@ img{
     display: none;
 }
 @keyframes tomato{
-    0%{left: -2px;}
-    100%{left: 2px;}
+    from{transform: rotate(360deg);}
+    to{transform: translate(5,5);}
 };
-.title{
-    transition: 1s;
-}
+
+// .title{
+//     transition: 1s;
+// }
 .title>img:hover{
     position:relative;
     animation:tomato.1s infinite;

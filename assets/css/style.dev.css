@@ -24,30 +24,26 @@ img {
 }
 @keyframes tomato {
   /* line 19, assets\less\common.less */
-  0% {
-    left: -2px;
+  from {
+    transform: rotate(360deg);
   }
   /* line 20, assets\less\common.less */
-  100% {
-    left: 2px;
+  to {
+    transform: translate(5, 5);
   }
 }
-/* line 22, assets\less\common.less */
-.title {
-  transition: 1s;
-}
-/* line 25, assets\less\common.less */
+/* line 26, assets\less\common.less */
 .title > img:hover {
   position: relative;
   animation: tomato.1s infinite;
   transition: 1s;
 }
 @keyframes line {
-  /* line 32, assets\less\common.less */
+  /* line 33, assets\less\common.less */
   0% {
     left: 0px;
   }
-  /* line 33, assets\less\common.less */
+  /* line 34, assets\less\common.less */
   100% {
     left: 20px;
   }
@@ -4008,7 +4004,7 @@ body .wrap .com .com_sub p:before {
   width: 20px;
   height: 20px;
   display: inline-block;
-  background-image: url(../images/footer/qug.jpg);
+  background-image: url(../images/footer/qug.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px 10px 0 10px;
@@ -4114,7 +4110,7 @@ body .wrap .blog ul li p.date:after {
   position: absolute;
   top: 5%;
   right: 10%;
-  background-image: url('../images/footer/chat.jpg');
+  background-image: url('../images/footer/chat.png');
   background-repeat: no-repeat;
 }
 /* line 712, assets\less\style.less */
@@ -4134,7 +4130,7 @@ body .wrap .blog ul li p.read:after {
   height: 15px;
   display: block;
   margin-top: 10px;
-  background-image: url('../images/footer/plus.jpg');
+  background-image: url('../images/footer/plus.png');
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
