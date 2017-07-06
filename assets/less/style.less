@@ -1,51 +1,69 @@
-body{
-    width: 100%;
+
+.section{
     height: 100%;
 
-.wrap{
-    width: auto;
-    height: auto;
-
     .main{
-        height: 970px;
-        overflow: hidden;
-        position: relative;
-        // background-image: url('../images/main/main.jpg');
-        // background-repeat: no-repeat;
-        // background-size:cover;
-        // background-position-y:-170px;
-      img{
-          width: 100%;
-           transition: 1s;
-          &:hover{
-             filter:grayscale(100%);
-             transform: scale(1.1) rotate(3deg);
-          }
-      }
-      p{
-          width: 350px;
-          margin: auto;
-          height: 150px;
-          font-size: 48px;
-          text-transform: uppercase;
-          position: relative;
-          top: 40%;
-          z-index: 1;
-          text-align: center;
-          padding: 214px 0;
-          span{
-               border: 10px #8fd614 solid;
-              display: inline-block;
-              padding: 10px;
-              color:#FFF;
-          }
-      }
+        // height: calc(100% - 120px);
+        height: 1000px;
+        .intro{
+            overflow: hidden;
+            position: relative;
+            height: 70%;
+            transition: 1s;
+            img{
+                width: 100%;
+                transition: 1s;
+            }
+            &:before{
+                content:"";
+                position: absolute;
+                left:0;
+                top:0;
+                bottom:0;
+                right: 0;
+                z-index:1;
+                background-color: rgba(0,0,0,0.5);
+            }
+            &:hover img{
+               filter:grayscale(80%);
+               transform: scale(1.2) rotate(3deg);
+            }
+        }
+        p{
+            width: 400px;
+            height: 200px;
+            font-size: 0;
+            border: 10px @color-main solid;
+            text-transform: uppercase;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            text-align: center;
+            margin-top: -100px;
+            margin-left: -200px;
+            transition: 1s;
+            color: @color-white;
+            overflow: hidden;
+            &:before{
+                content:"";
+                display: inline-block;
+                height: 100%;
+                vertical-align: middle;
+            }
+            span{
+                display: inline-block;
+                font-size: 48px;
+                line-height: 48px;
+                vertical-align: middle;
+            }
+        }
     }
     .second{
         ul{
            height: 300px;
            overflow: hidden;
            margin-top: 20px;
+           }
 
         li[class^="s-sub"]{
             width: 25%;
@@ -175,7 +193,7 @@ body{
             }
         }
     }
-}
+
     .third ul{
             background-color: #000;
             height: 508px;
@@ -736,8 +754,5 @@ body{
                 }
             }
         }
-    }
-          //blog
-} //wrap
-
-}
+    }          //blog
+} //section
