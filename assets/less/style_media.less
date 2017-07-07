@@ -1,80 +1,99 @@
-@media screen and (max-width: @mobile){
+@media screen and (max-width:@mobile){
 
 body{
     width: 100%;
     height: 100%;
-      .main{
-        .intro{
-            height: 100%;
-            img{
-                height: 100%;
-                width: auto;
-            }
-            p{
-                font-size:0;
-                width: 200px;
-                height: 150px;
-                margin-left:-100px;
-                margin-top: -150px;
-                span{
-                    font-size: 36px;
-                }
-            }
-          }
-         }
       .section{
            .title{
                span.line{
+                   display: none;
+                   transition: 1s;
                    &:before{
+                    //  display: none;
+                     transition: 1s;
+                     border: 1px blue solid;
                      display: none;
                    }
                    &:after{
+                    //  display: none;
+                     transition: 1s;
+                     border: 1px #F00 solid;
                      display: none;
                    }
                }
            }
-           .second{
-            .s-sub1{
-                    position: relative;
-                .s_ve{
-                    position: absolute;
-                    top: 40%;
-                    left: 20%;
-                    font-size: 15px;
-                    transition: 1s;
+           .main{
+               height: 780px;
+               transition: 1s;
+             .intro{
+                 height: 600px;
+                 transition: 1s;
+                 img{
+                     height: 100%;
+                     width: auto;
+                     transition: 1s;
+                 }
+                 p{
+                   font-size:0;
+                   width: 200px;
+                   height: 150px;
+                   margin-left:-100px;
+                   margin-top: -150px;
+                   transition: 1s;
+                   span{
+                       font-size: 36px;
+                       transition: 1s;
+                     }
+                 }
+               }
+               .second{
+                   height: 180px;
+                   transition: 1s;
+                   ul{
+                       height: 150px;
+                   }
+                .s-sub1{
+                        position: relative;
+                    .s_ve{
+                        position: absolute;
+                        top: 40%;
+                        left: 20%;
+                        font-size: 15px;
+                        transition: 1s;
+                    }
+                }
+                .s-sub2{
+                        position: relative;
+                    .s_fr{
+                        font-size: 15px;
+                        position: absolute;
+                        top: 40%;
+                        left: 30%;
+                        transition: 1s;
+                    }
+                }
+                .s-sub3{
+                        position: relative;
+                    .s_si{
+                        font-size: 15px;
+                        position: absolute;
+                        top: 40%;
+                        left: 25%;
+                        transition: 1s;
+                    }
+                }
+                .s-sub4{
+                        position: relative;
+                    .s_pr{
+                        font-size: 15px;
+                        position: absolute;
+                        top: 40%;
+                        left: 25%;
+                        transition: 1s;
+                    }
                 }
             }
-            .s-sub2{
-                    position: relative;
-                .s_fr{
-                    font-size: 15px;
-                    position: absolute;
-                    top: 40%;
-                    left: 30%;
-                    transition: 1s;
-                }
-            }
-            .s-sub3{
-                    position: relative;
-                .s_si{
-                    font-size: 15px;
-                    position: absolute;
-                    top: 40%;
-                    left: 25%;
-                    transition: 1s;
-                }
-            }
-            .s-sub4{
-                    position: relative;
-                .s_pr{
-                    font-size: 15px;
-                    position: absolute;
-                    top: 40%;
-                    left: 25%;
-                    transition: 1s;
-                }
-            }
-        }
+              }
 
            .third ul{
             overflow: hidden;
@@ -111,6 +130,7 @@ body{
 
            .farm-info{
                height: 500px;
+               transition: 1s;
             .box{
                 transition: 1s;
                 .fi_top{
@@ -291,5 +311,316 @@ body{
         }//blog
       }//section
     } //body
-  }
-//media screen
+  }//media screen
+
+  @media screen and (max-width:@tablet){
+
+  body{
+      width: 100%;
+      height: 100%;
+        .section{
+             .title{
+                 span.line{
+                     display: none;
+                     transition: 1s;
+                     &:before{
+                       transition: 1s;
+                       display: none;
+                     }
+                     &:after{
+                       transition: 1s;
+                       display: none;
+                     }
+                 }
+             }
+             .main{
+                 height: 600px;
+                 transition: 1s;
+               .intro{
+                   transition: 1s;
+                   img{
+                       height: 200%;
+                       width: auto;
+                       transition: 1s;
+                   }
+                   p{
+                     font-size:0;
+                     width: 200px;
+                     height: 150px;
+                     margin-left:-100px;
+                     margin-top: -150px;
+                     transition: 1s;
+                     span{
+                         font-size: 36px;
+                         transition: 1s;
+                       }
+                   }
+                 }
+                 .second{
+                     height: 180px;
+                     transition: 1s;
+                     ul{
+                         height: 150px;
+                     }
+                  .s-sub1{
+                          position: relative;
+                      .s_ve{
+                          position: absolute;
+                          top: 40%;
+                          left: 30%;
+                          font-size: 15px;
+                          transition: 1s;
+                      }
+                  }
+                  .s-sub2{
+                          position: relative;
+                      .s_fr{
+                          font-size: 15px;
+                          position: absolute;
+                          top: 40%;
+                          left: 40%;
+                          transition: 1s;
+                      }
+                  }
+                  .s-sub3{
+                          position: relative;
+                      .s_si{
+                          font-size: 15px;
+                          position: absolute;
+                          top: 40%;
+                          left: 35%;
+                          transition: 1s;
+                      }
+                  }
+                  .s-sub4{
+                          position: relative;
+                      .s_pr{
+                          font-size: 15px;
+                          position: absolute;
+                          top: 40%;
+                          left: 35%;
+                          transition: 1s;
+                      }
+                  }
+              }
+                }
+
+             .third ul{
+              overflow: hidden;
+              transition: 1s;
+              height: 250px;
+                  li{
+                      width: 100%;
+                      position: relative;
+                      float:left;
+                      border: 1px #F00 solid;
+                      img{
+                          width: 50%;
+                          transition: 1s;
+                      }
+                      p:first-child{
+                        font-size: 20px;
+                        // position: absolute;
+                        // top: 350px;
+                        // left: 33%;
+                        transition: 1s;
+                      }
+                      p:last-child{
+                        display:inline-block;
+                        transition: 1s;
+                        // position: absolute;
+                        // top:370px;
+                        // left:36px;
+                        width: 460px;
+                        float:none;
+                        overflow: hidden;
+                        font-size: 13px;
+                        width: 400px;
+                      }
+                  }
+              }
+
+             .farm-info{
+                 height: 500px;
+                 transition: 1s;
+              .box{
+                  transition: 1s;
+                  .fi_top{
+                      width: 100%;
+                      transition: 1s;
+                      img{
+                          width: 95%;
+                          position: absolute;
+                          top: -57px;
+                          left: -80px;
+                          transition: 1s;
+                      }
+                  }
+                  .fi_left{
+                      width: 90%;
+                      transition: 1s;
+                      img{
+                          width: 100%;
+                          position: absolute;
+                          top: 135px;
+                          left: -24px;
+                          transition: 1s;
+                      }
+                  }
+                  .fi_right{
+                      width: 100%;
+                      transition: 1s;
+                      img{
+                          width: 80%;
+                          position: absolute;
+                          top: 35px;
+                          left: 168px;
+                          transition: 1s;
+                      }
+                  }
+              }
+              p{
+                display: none;
+                transition: 1s;
+              }
+          }
+
+             .pro-info{
+              .pi{
+                  height: 200px;
+                  background-repeat: no-repeat;
+                  background-size: 100%;
+                  transition: 1s;
+                  ul{
+                    .ve{
+                        height: 200px;
+                        transition: 1s;
+                     }
+                    .fr{
+                        height: 200px;
+                        transition: 1s;
+                     }
+                    .si{
+                        height:200px;
+                        transition: 1s;
+                     }
+                    .pr{
+                        height: 200px;
+                        transition: 1s;
+                     }
+                  }
+              }
+
+             .pro-sub{
+                 height: 550px;
+                 transition: 1s;
+                 .ps-top{
+                  width: 400px;
+                  transition: 1s;
+                  img{
+                    width: 100%;
+                    margin: 0 30px 30px 30px;
+                    transition: 1s;
+                  }
+              }
+                 .ps-sub {
+                      ul{
+                          height: 100%;
+                          overflow: hidden;
+                          width: 850px;
+                          transition: 1s;
+                         li{
+                            width: 8%;
+                            height: 8%;
+                            float: left;
+                            padding: 0;
+                            margin:5px;
+                            transition: 1s;
+                            img{
+                              width: 100%;
+                              height: 100%;
+                              transition: 1s;
+                          }
+                            span{
+                                display: none;
+                                transition: 1s;
+                          }
+                      }
+                  }
+              }
+            }
+      }
+
+             .recipe{
+                .rec_box{
+                  margin: auto;
+                  overflow: hidden;
+                  margin-top: 20px;
+                  transition: 1s;
+                  .rb_left{
+                      img{
+                          display: none;
+                          transition: 1s;
+                      }
+                  }
+                  .rb_right{
+                      li{
+                          width: 20%;
+                          height: 200px;
+                          position: relative;
+                          top: 0px;
+                          left: 40px;
+                          transition: 1s;
+                      }
+                  }
+                  .rb_sub{
+                      width: 390px;
+                      height: 220px;
+                      background-color: #F36953;
+                      position: relative;
+                      top: 40px;
+                      right: -80px;
+                      transition: 1s;
+                  }
+              }
+          }
+
+             .com{
+                  margin-top: 30px;
+                  transition: 1s;
+                      h4{
+                          font-size: 18px;
+                          position: absolute;
+                          top: 100px;
+                          left: 170px;
+                          transition: 1s;
+                      }
+                      .com_sub{
+                          height: 550px;
+                          transition: 1s;
+                          li{
+                              background-color: rgba(250,250,250,0.3);
+                              float: none;
+                              margin-left:60px;
+                              transition: 1s;
+                          }
+                      }
+                  }
+
+             .blog{
+                  ul{
+                      li{
+                          float: none;
+                          margin: 20px 0 0 60px;
+                          transition: 1s;
+                          img{
+                              width: 100%;
+                              height: 250px;
+                              transition: 1s;
+                          }
+                      }
+                  }
+          }//blog
+        }//section
+      } //body
+    }//media screen
