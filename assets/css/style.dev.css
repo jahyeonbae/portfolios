@@ -2596,46 +2596,38 @@ img {
   background-color: #fff;
   width: 150px;
 }
-@media screen and (max-width: 480px) {
-  /* line 3, assets\less\style_media.less */
-  body {
-    width: 100%;
-    height: 100%;
-  }
-  /* line 8, assets\less\style_media.less */
+@media screen and (max-width: 750px) {
+  /* line 7, assets\less\style_media.less */
   body .section .title span.line {
     display: none;
     transition: 1s;
   }
-  /* line 11, assets\less\style_media.less */
+  /* line 10, assets\less\style_media.less */
   body .section .title span.line:before {
     transition: 1s;
-    border: 1px blue solid;
     display: none;
   }
-  /* line 17, assets\less\style_media.less */
+  /* line 14, assets\less\style_media.less */
   body .section .title span.line:after {
     transition: 1s;
-    border: 1px #F00 solid;
     display: none;
   }
-  /* line 25, assets\less\style_media.less */
+  /* line 20, assets\less\style_media.less */
   body .section .main {
     height: 780px;
     transition: 1s;
   }
-  /* line 28, assets\less\style_media.less */
+  /* line 23, assets\less\style_media.less */
   body .section .main .intro {
     height: 600px;
     transition: 1s;
   }
-  /* line 31, assets\less\style_media.less */
+  /* line 26, assets\less\style_media.less */
   body .section .main .intro img {
-    height: 100%;
-    width: auto;
+    height: 200%;
     transition: 1s;
   }
-  /* line 36, assets\less\style_media.less */
+  /* line 30, assets\less\style_media.less */
   body .section .main .intro p {
     font-size: 0;
     width: 200px;
@@ -2644,94 +2636,455 @@ img {
     margin-top: -150px;
     transition: 1s;
   }
-  /* line 43, assets\less\style_media.less */
+  /* line 37, assets\less\style_media.less */
   body .section .main .intro p span {
     font-size: 36px;
     transition: 1s;
   }
-  /* line 49, assets\less\style_media.less */
+  /* line 43, assets\less\style_media.less */
   body .section .main .second {
     height: 180px;
     transition: 1s;
   }
-  /* line 52, assets\less\style_media.less */
+  /* line 46, assets\less\style_media.less */
   body .section .main .second ul {
     height: 150px;
   }
-  /* line 55, assets\less\style_media.less */
+  /* line 49, assets\less\style_media.less */
   body .section .main .second .s-sub1 {
     position: relative;
   }
-  /* line 57, assets\less\style_media.less */
+  /* line 51, assets\less\style_media.less */
   body .section .main .second .s-sub1 .s_ve {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 15px;
+    transition: 1s;
+  }
+  /* line 59, assets\less\style_media.less */
+  body .section .main .second .s-sub2 {
+    position: relative;
+  }
+  /* line 61, assets\less\style_media.less */
+  body .section .main .second .s-sub2 .s_fr {
+    font-size: 15px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transition: 1s;
+  }
+  /* line 69, assets\less\style_media.less */
+  body .section .main .second .s-sub3 {
+    position: relative;
+  }
+  /* line 71, assets\less\style_media.less */
+  body .section .main .second .s-sub3 .s_si {
+    font-size: 15px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transition: 1s;
+  }
+  /* line 79, assets\less\style_media.less */
+  body .section .main .second .s-sub4 {
+    position: relative;
+  }
+  /* line 81, assets\less\style_media.less */
+  body .section .main .second .s-sub4 .s_pr {
+    font-size: 15px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transition: 1s;
+  }
+  /* line 92, assets\less\style_media.less */
+  body .section .third ul {
+    overflow: hidden;
+    transition: 1s;
+    height: 250px;
+  }
+  /* line 96, assets\less\style_media.less */
+  body .section .third ul li {
+    width: 50%;
+    position: relative;
+    float: left;
+  }
+  /* line 100, assets\less\style_media.less */
+  body .section .third ul li img {
+    width: 100%;
+    transition: 1s;
+  }
+  /* line 104, assets\less\style_media.less */
+  body .section .third ul li p:first-child {
+    width: 200px;
+    font-size: 20px;
+    transition: 1s;
+    position: relative;
+    top: 20px;
+    left: 80px;
+  }
+  /* line 112, assets\less\style_media.less */
+  body .section .third ul li p:last-child {
+    width: 200px;
+    font-size: 13px;
+    transition: 1s;
+    position: relative;
+    top: 40px;
+    left: 80px;
+  }
+  /* line 123, assets\less\style_media.less */
+  body .section .farm-info {
+    height: 500px;
+    transition: 1s;
+  }
+  /* line 126, assets\less\style_media.less */
+  body .section .farm-info .box {
+    transition: 1s;
+    position: relative;
+    left: 100px;
+  }
+  /* line 130, assets\less\style_media.less */
+  body .section .farm-info .box .fi_top {
+    width: 100%;
+    transition: 1s;
+  }
+  /* line 133, assets\less\style_media.less */
+  body .section .farm-info .box .fi_top img {
+    width: 95%;
+    position: absolute;
+    top: -57px;
+    left: -80px;
+    transition: 1s;
+  }
+  /* line 141, assets\less\style_media.less */
+  body .section .farm-info .box .fi_left {
+    width: 90%;
+    transition: 1s;
+  }
+  /* line 144, assets\less\style_media.less */
+  body .section .farm-info .box .fi_left img {
+    width: 100%;
+    position: absolute;
+    top: 135px;
+    left: -24px;
+    transition: 1s;
+  }
+  /* line 152, assets\less\style_media.less */
+  body .section .farm-info .box .fi_right {
+    width: 100%;
+    transition: 1s;
+  }
+  /* line 155, assets\less\style_media.less */
+  body .section .farm-info .box .fi_right img {
+    width: 80%;
+    position: absolute;
+    top: 35px;
+    left: 168px;
+    transition: 1s;
+  }
+  /* line 164, assets\less\style_media.less */
+  body .section .farm-info p {
+    transition: 1s;
+    position: relative;
+    top: -80px;
+    left: 300px;
+    width: 230px;
+    height: 400px;
+    overflow: hidden;
+  }
+  /* line 176, assets\less\style_media.less */
+  body .section .pro-info .pi {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 1s;
+  }
+  /* line 182, assets\less\style_media.less */
+  body .section .pro-info .pi ul .ve {
+    height: 334px;
+    transition: 1s;
+  }
+  /* line 186, assets\less\style_media.less */
+  body .section .pro-info .pi ul .fr {
+    height: 334px;
+    transition: 1s;
+  }
+  /* line 190, assets\less\style_media.less */
+  body .section .pro-info .pi ul .si {
+    height: 334px;
+    transition: 1s;
+  }
+  /* line 194, assets\less\style_media.less */
+  body .section .pro-info .pi ul .pr {
+    height: 334px;
+    transition: 1s;
+  }
+  /* line 201, assets\less\style_media.less */
+  body .section .pro-info .pro-sub {
+    height: 50%;
+    transition: 1s;
+  }
+  /* line 204, assets\less\style_media.less */
+  body .section .pro-info .pro-sub .ps-top {
+    width: 50%;
+    transition: 1s;
+    float: left;
+  }
+  /* line 208, assets\less\style_media.less */
+  body .section .pro-info .pro-sub .ps-top img {
+    width: 100%;
+    margin: 0 10px 10px 10px;
+    transition: 1s;
+  }
+  /* line 216, assets\less\style_media.less */
+  body .section .pro-info .pro-sub .ps-sub ul {
+    margin: 0 0 0 53%;
+    width: 50%;
+    transition: 1s;
+  }
+  /* line 220, assets\less\style_media.less */
+  body .section .pro-info .pro-sub .ps-sub ul li {
+    width: 28%;
+    transition: 1s;
+    margin: 5px;
+    padding: 0;
+  }
+  /* line 225, assets\less\style_media.less */
+  body .section .pro-info .pro-sub .ps-sub ul li img {
+    width: 100%;
+    height: 100px;
+    transition: 1s;
+  }
+  /* line 230, assets\less\style_media.less */
+  body .section .pro-info .pro-sub .ps-sub ul li span {
+    transition: 1s;
+    font-size: 11px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 244, assets\less\style_media.less */
+  body .section .recipe .rec_box {
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    transition: 1s;
+  }
+  /* line 250, assets\less\style_media.less */
+  body .section .recipe .rec_box .rb_left img {
+    display: none;
+    transition: 1s;
+  }
+  /* line 256, assets\less\style_media.less */
+  body .section .recipe .rec_box .rb_right li {
+    width: 20%;
+    height: 270px;
+    position: relative;
+    top: 0px;
+    left: 40px;
+    transition: 1s;
+  }
+  /* line 265, assets\less\style_media.less */
+  body .section .recipe .rec_box .rb_sub {
+    width: 600px;
+    height: 300px;
+    background-color: #F36953;
+    position: relative;
+    top: 40px;
+    right: -100px;
+    transition: 1s;
+  }
+  /* line 277, assets\less\style_media.less */
+  body .section .com {
+    margin-top: 30px;
+    transition: 1s;
+  }
+  /* line 280, assets\less\style_media.less */
+  body .section .com h4 {
+    font-size: 18px;
+    transition: 1s;
+    position: relative;
+    top: 100px;
+    left: 40%;
+  }
+  /* line 288, assets\less\style_media.less */
+  body .section .com .com_sub ul {
+    margin-left: 5px;
+    transition: 1s;
+  }
+  /* line 292, assets\less\style_media.less */
+  body .section .com .com_sub li {
+    background-color: rgba(250, 250, 250, 0.3);
+    float: left;
+    transition: 1s;
+    width: 19%;
+    margin-right: 8px;
+  }
+  /* line 298, assets\less\style_media.less */
+  body .section .com .com_sub li p {
+    width: 200px;
+    transition: 1s;
+  }
+  /* line 307, assets\less\style_media.less */
+  body .section .blog ul {
+    overflow: hidden;
+  }
+  /* line 309, assets\less\style_media.less */
+  body .section .blog ul li {
+    float: left;
+    transition: 1s;
+    width: 21%;
+    margin: 10px;
+  }
+  /* line 314, assets\less\style_media.less */
+  body .section .blog ul li img {
+    width: 100%;
+    transition: 1s;
+  }
+  /* line 318, assets\less\style_media.less */
+  body .section .blog ul li .bl_group {
+    width: 230px;
+    overflow: hidden;
+    transition: 1s;
+    height: 350px;
+  }
+  /* line 323, assets\less\style_media.less */
+  body .section .blog ul li .bl_group p {
+    width: 230px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 340, assets\less\style_media.less */
+  body .wrap .section .title span.line {
+    display: none;
+    transition: 1s;
+  }
+  /* line 343, assets\less\style_media.less */
+  body .wrap .section .title span.line:before {
+    transition: 1s;
+    display: none;
+  }
+  /* line 347, assets\less\style_media.less */
+  body .wrap .section .title span.line:after {
+    transition: 1s;
+    display: none;
+  }
+  /* line 353, assets\less\style_media.less */
+  body .wrap .section .main {
+    height: 780px;
+    width: 100%;
+    transition: 1s;
+    overflow: hidden;
+  }
+  /* line 358, assets\less\style_media.less */
+  body .wrap .section .main .intro {
+    height: 600px;
+    transition: 1s;
+  }
+  /* line 361, assets\less\style_media.less */
+  body .wrap .section .main .intro img {
+    height: 100%;
+    width: auto;
+    transition: 1s;
+  }
+  /* line 366, assets\less\style_media.less */
+  body .wrap .section .main .intro p {
+    font-size: 0;
+    width: 200px;
+    height: 150px;
+    margin-left: -100px;
+    margin-top: -150px;
+    transition: 1s;
+  }
+  /* line 373, assets\less\style_media.less */
+  body .wrap .section .main .intro p span {
+    font-size: 36px;
+    transition: 1s;
+  }
+  /* line 379, assets\less\style_media.less */
+  body .wrap .section .main .second {
+    height: 180px;
+    overflow: hidden;
+  }
+  /* line 382, assets\less\style_media.less */
+  body .wrap .section .main .second ul {
+    height: 150px;
+  }
+  /* line 385, assets\less\style_media.less */
+  body .wrap .section .main .second .s-sub1 {
+    position: relative;
+  }
+  /* line 387, assets\less\style_media.less */
+  body .wrap .section .main .second .s-sub1 .s_ve {
     position: absolute;
     top: 40%;
     left: 20%;
     font-size: 15px;
     transition: 1s;
   }
-  /* line 65, assets\less\style_media.less */
-  body .section .main .second .s-sub2 {
+  /* line 395, assets\less\style_media.less */
+  body .wrap .section .main .second .s-sub2 {
     position: relative;
   }
-  /* line 67, assets\less\style_media.less */
-  body .section .main .second .s-sub2 .s_fr {
+  /* line 397, assets\less\style_media.less */
+  body .wrap .section .main .second .s-sub2 .s_fr {
     font-size: 15px;
     position: absolute;
     top: 40%;
     left: 30%;
     transition: 1s;
   }
-  /* line 75, assets\less\style_media.less */
-  body .section .main .second .s-sub3 {
+  /* line 405, assets\less\style_media.less */
+  body .wrap .section .main .second .s-sub3 {
     position: relative;
   }
-  /* line 77, assets\less\style_media.less */
-  body .section .main .second .s-sub3 .s_si {
+  /* line 407, assets\less\style_media.less */
+  body .wrap .section .main .second .s-sub3 .s_si {
     font-size: 15px;
     position: absolute;
     top: 40%;
     left: 25%;
     transition: 1s;
   }
-  /* line 85, assets\less\style_media.less */
-  body .section .main .second .s-sub4 {
+  /* line 415, assets\less\style_media.less */
+  body .wrap .section .main .second .s-sub4 {
     position: relative;
   }
-  /* line 87, assets\less\style_media.less */
-  body .section .main .second .s-sub4 .s_pr {
+  /* line 417, assets\less\style_media.less */
+  body .wrap .section .main .second .s-sub4 .s_pr {
     font-size: 15px;
     position: absolute;
     top: 40%;
     left: 25%;
     transition: 1s;
   }
-  /* line 98, assets\less\style_media.less */
-  body .section .third ul {
+  /* line 428, assets\less\style_media.less */
+  body .wrap .section .third ul {
     overflow: hidden;
     transition: 1s;
   }
-  /* line 101, assets\less\style_media.less */
-  body .section .third ul li {
+  /* line 431, assets\less\style_media.less */
+  body .wrap .section .third ul li {
     width: 100%;
     position: relative;
     float: none;
   }
-  /* line 105, assets\less\style_media.less */
-  body .section .third ul li img {
+  /* line 435, assets\less\style_media.less */
+  body .wrap .section .third ul li img {
     width: 100%;
     transition: 1s;
   }
-  /* line 109, assets\less\style_media.less */
-  body .section .third ul li p:first-child {
+  /* line 439, assets\less\style_media.less */
+  body .wrap .section .third ul li p:first-child {
     font-size: 20px;
     position: absolute;
     top: 350px;
     left: 33%;
     transition: 1s;
   }
-  /* line 116, assets\less\style_media.less */
-  body .section .third ul li p:last-child {
+  /* line 446, assets\less\style_media.less */
+  body .wrap .section .third ul li p:last-child {
     display: inline-block;
     transition: 1s;
     position: absolute;
@@ -2743,443 +3096,114 @@ img {
     font-size: 13px;
     width: 400px;
   }
-  /* line 131, assets\less\style_media.less */
-  body .section .farm-info {
+  /* line 461, assets\less\style_media.less */
+  body .wrap .section .farm-info {
     height: 500px;
     transition: 1s;
   }
-  /* line 134, assets\less\style_media.less */
-  body .section .farm-info .box {
+  /* line 464, assets\less\style_media.less */
+  body .wrap .section .farm-info .box {
     transition: 1s;
   }
-  /* line 136, assets\less\style_media.less */
-  body .section .farm-info .box .fi_top {
+  /* line 466, assets\less\style_media.less */
+  body .wrap .section .farm-info .box .fi_top {
     width: 100%;
     transition: 1s;
   }
-  /* line 139, assets\less\style_media.less */
-  body .section .farm-info .box .fi_top img {
+  /* line 469, assets\less\style_media.less */
+  body .wrap .section .farm-info .box .fi_top img {
     width: 95%;
     position: absolute;
     top: -57px;
     left: -80px;
     transition: 1s;
   }
-  /* line 147, assets\less\style_media.less */
-  body .section .farm-info .box .fi_left {
+  /* line 477, assets\less\style_media.less */
+  body .wrap .section .farm-info .box .fi_left {
     width: 90%;
     transition: 1s;
   }
-  /* line 150, assets\less\style_media.less */
-  body .section .farm-info .box .fi_left img {
+  /* line 480, assets\less\style_media.less */
+  body .wrap .section .farm-info .box .fi_left img {
     width: 100%;
     position: absolute;
     top: 135px;
     left: -24px;
     transition: 1s;
   }
-  /* line 158, assets\less\style_media.less */
-  body .section .farm-info .box .fi_right {
+  /* line 488, assets\less\style_media.less */
+  body .wrap .section .farm-info .box .fi_right {
     width: 100%;
     transition: 1s;
   }
-  /* line 161, assets\less\style_media.less */
-  body .section .farm-info .box .fi_right img {
+  /* line 491, assets\less\style_media.less */
+  body .wrap .section .farm-info .box .fi_right img {
     width: 80%;
     position: absolute;
     top: 35px;
     left: 168px;
     transition: 1s;
   }
-  /* line 170, assets\less\style_media.less */
-  body .section .farm-info p {
+  /* line 500, assets\less\style_media.less */
+  body .wrap .section .farm-info p {
     display: none;
-    transition: 1s;
-  }
-  /* line 177, assets\less\style_media.less */
-  body .section .pro-info .pi {
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    transition: 1s;
-  }
-  /* line 183, assets\less\style_media.less */
-  body .section .pro-info .pi ul .ve {
-    height: 200px;
-    transition: 1s;
-  }
-  /* line 187, assets\less\style_media.less */
-  body .section .pro-info .pi ul .fr {
-    height: 200px;
-    transition: 1s;
-  }
-  /* line 191, assets\less\style_media.less */
-  body .section .pro-info .pi ul .si {
-    height: 200px;
-    transition: 1s;
-  }
-  /* line 195, assets\less\style_media.less */
-  body .section .pro-info .pi ul .pr {
-    height: 200px;
-    transition: 1s;
-  }
-  /* line 202, assets\less\style_media.less */
-  body .section .pro-info .pro-sub {
-    height: 550px;
-    transition: 1s;
-  }
-  /* line 205, assets\less\style_media.less */
-  body .section .pro-info .pro-sub .ps-top {
-    width: 400px;
-    transition: 1s;
-  }
-  /* line 208, assets\less\style_media.less */
-  body .section .pro-info .pro-sub .ps-top img {
-    width: 100%;
-    margin: 0 30px 30px 30px;
-    transition: 1s;
-  }
-  /* line 215, assets\less\style_media.less */
-  body .section .pro-info .pro-sub .ps-sub ul {
-    height: 100%;
-    overflow: hidden;
-    width: 850px;
-    transition: 1s;
-  }
-  /* line 220, assets\less\style_media.less */
-  body .section .pro-info .pro-sub .ps-sub ul li {
-    width: 8%;
-    height: 8%;
-    float: left;
-    padding: 0;
-    margin: 5px;
-    transition: 1s;
-  }
-  /* line 227, assets\less\style_media.less */
-  body .section .pro-info .pro-sub .ps-sub ul li img {
-    width: 100%;
-    height: 100%;
-    transition: 1s;
-  }
-  /* line 232, assets\less\style_media.less */
-  body .section .pro-info .pro-sub .ps-sub ul li span {
-    display: none;
-    transition: 1s;
-  }
-  /* line 243, assets\less\style_media.less */
-  body .section .recipe .rec_box {
-    margin: auto;
-    overflow: hidden;
-    margin-top: 20px;
-    transition: 1s;
-  }
-  /* line 249, assets\less\style_media.less */
-  body .section .recipe .rec_box .rb_left img {
-    display: none;
-    transition: 1s;
-  }
-  /* line 255, assets\less\style_media.less */
-  body .section .recipe .rec_box .rb_right li {
-    width: 20%;
-    height: 200px;
-    position: relative;
-    top: 0px;
-    left: 40px;
-    transition: 1s;
-  }
-  /* line 264, assets\less\style_media.less */
-  body .section .recipe .rec_box .rb_sub {
-    width: 390px;
-    height: 220px;
-    background-color: #F36953;
-    position: relative;
-    top: 40px;
-    right: -80px;
-    transition: 1s;
-  }
-  /* line 276, assets\less\style_media.less */
-  body .section .com {
-    margin-top: 30px;
-    transition: 1s;
-  }
-  /* line 279, assets\less\style_media.less */
-  body .section .com h4 {
-    font-size: 18px;
-    position: absolute;
-    top: 100px;
-    left: 170px;
-    transition: 1s;
-  }
-  /* line 286, assets\less\style_media.less */
-  body .section .com .com_sub {
-    height: 550px;
-    transition: 1s;
-  }
-  /* line 289, assets\less\style_media.less */
-  body .section .com .com_sub li {
-    background-color: rgba(250, 250, 250, 0.3);
-    float: none;
-    margin-left: 60px;
-    transition: 1s;
-  }
-  /* line 300, assets\less\style_media.less */
-  body .section .blog ul li {
-    float: none;
-    margin: 20px 0 0 60px;
-    transition: 1s;
-  }
-  /* line 304, assets\less\style_media.less */
-  body .section .blog ul li img {
-    width: 100%;
-    height: 250px;
-    transition: 1s;
-  }
-}
-@media screen and (max-width: 750px) {
-  /* line 318, assets\less\style_media.less */
-  body {
-    width: 100%;
-    height: 100%;
-  }
-  /* line 323, assets\less\style_media.less */
-  body .section .title span.line {
-    display: none;
-    transition: 1s;
-  }
-  /* line 326, assets\less\style_media.less */
-  body .section .title span.line:before {
-    transition: 1s;
-    display: none;
-  }
-  /* line 330, assets\less\style_media.less */
-  body .section .title span.line:after {
-    transition: 1s;
-    display: none;
-  }
-  /* line 336, assets\less\style_media.less */
-  body .section .main {
-    height: 600px;
-    transition: 1s;
-  }
-  /* line 339, assets\less\style_media.less */
-  body .section .main .intro {
-    transition: 1s;
-  }
-  /* line 341, assets\less\style_media.less */
-  body .section .main .intro img {
-    height: 200%;
-    width: auto;
-    transition: 1s;
-  }
-  /* line 346, assets\less\style_media.less */
-  body .section .main .intro p {
-    font-size: 0;
-    width: 200px;
-    height: 150px;
-    margin-left: -100px;
-    margin-top: -150px;
-    transition: 1s;
-  }
-  /* line 353, assets\less\style_media.less */
-  body .section .main .intro p span {
-    font-size: 36px;
-    transition: 1s;
-  }
-  /* line 359, assets\less\style_media.less */
-  body .section .main .second {
-    height: 180px;
-    transition: 1s;
-  }
-  /* line 362, assets\less\style_media.less */
-  body .section .main .second ul {
-    height: 150px;
-  }
-  /* line 365, assets\less\style_media.less */
-  body .section .main .second .s-sub1 {
-    position: relative;
-  }
-  /* line 367, assets\less\style_media.less */
-  body .section .main .second .s-sub1 .s_ve {
-    position: absolute;
-    top: 40%;
-    left: 30%;
-    font-size: 15px;
-    transition: 1s;
-  }
-  /* line 375, assets\less\style_media.less */
-  body .section .main .second .s-sub2 {
-    position: relative;
-  }
-  /* line 377, assets\less\style_media.less */
-  body .section .main .second .s-sub2 .s_fr {
-    font-size: 15px;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    transition: 1s;
-  }
-  /* line 385, assets\less\style_media.less */
-  body .section .main .second .s-sub3 {
-    position: relative;
-  }
-  /* line 387, assets\less\style_media.less */
-  body .section .main .second .s-sub3 .s_si {
-    font-size: 15px;
-    position: absolute;
-    top: 40%;
-    left: 35%;
-    transition: 1s;
-  }
-  /* line 395, assets\less\style_media.less */
-  body .section .main .second .s-sub4 {
-    position: relative;
-  }
-  /* line 397, assets\less\style_media.less */
-  body .section .main .second .s-sub4 .s_pr {
-    font-size: 15px;
-    position: absolute;
-    top: 40%;
-    left: 35%;
-    transition: 1s;
-  }
-  /* line 408, assets\less\style_media.less */
-  body .section .third ul {
-    overflow: hidden;
-    transition: 1s;
-    height: 250px;
-  }
-  /* line 412, assets\less\style_media.less */
-  body .section .third ul li {
-    width: 100%;
-    position: relative;
-    float: left;
-    border: 1px #F00 solid;
-  }
-  /* line 417, assets\less\style_media.less */
-  body .section .third ul li img {
-    width: 50%;
-    transition: 1s;
-  }
-  /* line 421, assets\less\style_media.less */
-  body .section .third ul li p:first-child {
-    font-size: 20px;
-    transition: 1s;
-  }
-  /* line 428, assets\less\style_media.less */
-  body .section .third ul li p:last-child {
-    display: inline-block;
-    transition: 1s;
-    width: 460px;
-    float: none;
-    overflow: hidden;
-    font-size: 13px;
-    width: 400px;
-  }
-  /* line 443, assets\less\style_media.less */
-  body .section .farm-info {
-    height: 500px;
-    transition: 1s;
-  }
-  /* line 446, assets\less\style_media.less */
-  body .section .farm-info .box {
-    transition: 1s;
-  }
-  /* line 448, assets\less\style_media.less */
-  body .section .farm-info .box .fi_top {
-    width: 100%;
-    transition: 1s;
-  }
-  /* line 451, assets\less\style_media.less */
-  body .section .farm-info .box .fi_top img {
-    width: 95%;
-    position: absolute;
-    top: -57px;
-    left: -80px;
-    transition: 1s;
-  }
-  /* line 459, assets\less\style_media.less */
-  body .section .farm-info .box .fi_left {
-    width: 90%;
-    transition: 1s;
-  }
-  /* line 462, assets\less\style_media.less */
-  body .section .farm-info .box .fi_left img {
-    width: 100%;
-    position: absolute;
-    top: 135px;
-    left: -24px;
-    transition: 1s;
-  }
-  /* line 470, assets\less\style_media.less */
-  body .section .farm-info .box .fi_right {
-    width: 100%;
-    transition: 1s;
-  }
-  /* line 473, assets\less\style_media.less */
-  body .section .farm-info .box .fi_right img {
-    width: 80%;
-    position: absolute;
-    top: 35px;
-    left: 168px;
-    transition: 1s;
-  }
-  /* line 482, assets\less\style_media.less */
-  body .section .farm-info p {
-    display: none;
-    transition: 1s;
-  }
-  /* line 489, assets\less\style_media.less */
-  body .section .pro-info .pi {
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    transition: 1s;
-  }
-  /* line 495, assets\less\style_media.less */
-  body .section .pro-info .pi ul .ve {
-    height: 200px;
-    transition: 1s;
-  }
-  /* line 499, assets\less\style_media.less */
-  body .section .pro-info .pi ul .fr {
-    height: 200px;
-    transition: 1s;
-  }
-  /* line 503, assets\less\style_media.less */
-  body .section .pro-info .pi ul .si {
-    height: 200px;
     transition: 1s;
   }
   /* line 507, assets\less\style_media.less */
-  body .section .pro-info .pi ul .pr {
+  body .wrap .section .pro-info .pi {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 1s;
+  }
+  /* line 513, assets\less\style_media.less */
+  body .wrap .section .pro-info .pi ul .ve {
     height: 200px;
     transition: 1s;
   }
-  /* line 514, assets\less\style_media.less */
-  body .section .pro-info .pro-sub {
+  /* line 517, assets\less\style_media.less */
+  body .wrap .section .pro-info .pi ul .fr {
+    height: 200px;
+    transition: 1s;
+  }
+  /* line 521, assets\less\style_media.less */
+  body .wrap .section .pro-info .pi ul .si {
+    height: 200px;
+    transition: 1s;
+  }
+  /* line 525, assets\less\style_media.less */
+  body .wrap .section .pro-info .pi ul .pr {
+    height: 200px;
+    transition: 1s;
+  }
+  /* line 532, assets\less\style_media.less */
+  body .wrap .section .pro-info .pro-sub {
     height: 550px;
     transition: 1s;
   }
-  /* line 517, assets\less\style_media.less */
-  body .section .pro-info .pro-sub .ps-top {
+  /* line 535, assets\less\style_media.less */
+  body .wrap .section .pro-info .pro-sub .ps-top {
     width: 400px;
     transition: 1s;
   }
-  /* line 520, assets\less\style_media.less */
-  body .section .pro-info .pro-sub .ps-top img {
+  /* line 538, assets\less\style_media.less */
+  body .wrap .section .pro-info .pro-sub .ps-top img {
     width: 100%;
     margin: 0 30px 30px 30px;
     transition: 1s;
   }
-  /* line 527, assets\less\style_media.less */
-  body .section .pro-info .pro-sub .ps-sub ul {
+  /* line 545, assets\less\style_media.less */
+  body .wrap .section .pro-info .pro-sub .ps-sub ul {
     height: 100%;
     overflow: hidden;
     width: 850px;
     transition: 1s;
+    position: relative;
+    top: -15px;
+    left: -247px;
   }
-  /* line 532, assets\less\style_media.less */
-  body .section .pro-info .pro-sub .ps-sub ul li {
+  /* line 553, assets\less\style_media.less */
+  body .wrap .section .pro-info .pro-sub .ps-sub ul li {
     width: 8%;
     height: 8%;
     float: left;
@@ -3187,31 +3211,31 @@ img {
     margin: 5px;
     transition: 1s;
   }
-  /* line 539, assets\less\style_media.less */
-  body .section .pro-info .pro-sub .ps-sub ul li img {
+  /* line 560, assets\less\style_media.less */
+  body .wrap .section .pro-info .pro-sub .ps-sub ul li img {
     width: 100%;
     height: 100%;
     transition: 1s;
   }
-  /* line 544, assets\less\style_media.less */
-  body .section .pro-info .pro-sub .ps-sub ul li span {
+  /* line 565, assets\less\style_media.less */
+  body .wrap .section .pro-info .pro-sub .ps-sub ul li span {
     display: none;
     transition: 1s;
   }
-  /* line 555, assets\less\style_media.less */
-  body .section .recipe .rec_box {
+  /* line 576, assets\less\style_media.less */
+  body .wrap .section .recipe .rec_box {
     margin: auto;
     overflow: hidden;
     margin-top: 20px;
     transition: 1s;
   }
-  /* line 561, assets\less\style_media.less */
-  body .section .recipe .rec_box .rb_left img {
+  /* line 582, assets\less\style_media.less */
+  body .wrap .section .recipe .rec_box .rb_left img {
     display: none;
     transition: 1s;
   }
-  /* line 567, assets\less\style_media.less */
-  body .section .recipe .rec_box .rb_right li {
+  /* line 588, assets\less\style_media.less */
+  body .wrap .section .recipe .rec_box .rb_right li {
     width: 20%;
     height: 200px;
     position: relative;
@@ -3219,8 +3243,8 @@ img {
     left: 40px;
     transition: 1s;
   }
-  /* line 576, assets\less\style_media.less */
-  body .section .recipe .rec_box .rb_sub {
+  /* line 597, assets\less\style_media.less */
+  body .wrap .section .recipe .rec_box .rb_sub {
     width: 390px;
     height: 220px;
     background-color: #F36953;
@@ -3229,45 +3253,45 @@ img {
     right: -80px;
     transition: 1s;
   }
-  /* line 588, assets\less\style_media.less */
-  body .section .com {
+  /* line 609, assets\less\style_media.less */
+  body .wrap .section .com {
     margin-top: 30px;
     transition: 1s;
   }
-  /* line 591, assets\less\style_media.less */
-  body .section .com h4 {
+  /* line 612, assets\less\style_media.less */
+  body .wrap .section .com h4 {
     font-size: 18px;
     position: absolute;
     top: 100px;
     left: 170px;
     transition: 1s;
   }
-  /* line 598, assets\less\style_media.less */
-  body .section .com .com_sub {
+  /* line 619, assets\less\style_media.less */
+  body .wrap .section .com .com_sub {
     height: 550px;
     transition: 1s;
   }
-  /* line 601, assets\less\style_media.less */
-  body .section .com .com_sub li {
+  /* line 622, assets\less\style_media.less */
+  body .wrap .section .com .com_sub li {
     background-color: rgba(250, 250, 250, 0.3);
     float: none;
     margin-left: 60px;
     transition: 1s;
   }
-  /* line 612, assets\less\style_media.less */
-  body .section .blog ul li {
+  /* line 633, assets\less\style_media.less */
+  body .wrap .section .blog ul li {
     float: none;
     margin: 20px 0 0 60px;
     transition: 1s;
   }
-  /* line 616, assets\less\style_media.less */
-  body .section .blog ul li img {
+  /* line 637, assets\less\style_media.less */
+  body .wrap .section .blog ul li img {
     width: 100%;
     height: 250px;
     transition: 1s;
   }
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
   /* line 3, assets\less\footer_media.less */
   .footer {
     height: 600px;
@@ -3346,6 +3370,74 @@ img {
     color: #FFF;
     font-size: 14px;
     margin-bottom: 10px;
+    transition: 1s;
+  }
+}
+@media screen and (max-width: 750px) {
+  /* line 79, assets\less\footer_media.less */
+  .footer {
+    transition: 1s;
+  }
+  /* line 81, assets\less\footer_media.less */
+  .footer .f_left {
+    width: 30%;
+    margin: 0px;
+    float: left;
+    transition: 1s;
+  }
+  /* line 87, assets\less\footer_media.less */
+  .footer .f_left .f_logo img {
+    padding: 0;
+    transition: 1s;
+  }
+  /* line 96, assets\less\footer_media.less */
+  .footer .f_left p {
+    font-size: 12px;
+    width: 200px;
+    transition: 1s;
+  }
+  /* line 102, assets\less\footer_media.less */
+  .footer .f_right {
+    transition: 1s;
+    width: 50%;
+    margin-left: 45%;
+  }
+  /* line 106, assets\less\footer_media.less */
+  .footer .f_right li {
+    float: left;
+    width: 28%;
+    transition: 1s;
+    margin-right: 5px;
+  }
+  /* line 111, assets\less\footer_media.less */
+  .footer .f_right li .s_mail {
+    transition: 1s;
+    position: relative;
+    top: 70px;
+    right: 180px;
+  }
+  /* line 116, assets\less\footer_media.less */
+  .footer .f_right li .s_mail .sm_sub {
+    position: relative;
+    top: 0px;
+    right: 180px;
+    transition: 1s;
+  }
+  /* line 123, assets\less\footer_media.less */
+  .footer .f_right li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 1s;
+  }
+  /* line 130, assets\less\footer_media.less */
+  .footer .f_right .contact .c_sub {
+    transition: 1s;
+  }
+  /* line 133, assets\less\footer_media.less */
+  .footer .f_right .contact .c_sub span {
+    display: inline;
+    color: #FFF;
+    font-size: 14px;
     transition: 1s;
   }
 }
