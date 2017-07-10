@@ -2624,7 +2624,7 @@ img {
   }
   /* line 26, assets\less\style_media.less */
   body .section .main .intro img {
-    height: 200%;
+    height: 100%;
     transition: 1s;
   }
   /* line 30, assets\less\style_media.less */
@@ -3262,7 +3262,7 @@ img {
   body .wrap .section .com h4 {
     font-size: 18px;
     position: absolute;
-    top: 100px;
+    top: 50px;
     left: 170px;
     transition: 1s;
   }
@@ -3277,14 +3277,28 @@ img {
     float: none;
     margin-left: 60px;
     transition: 1s;
+    width: 350px;
+    position: relative;
+    top: -50px;
   }
-  /* line 633, assets\less\style_media.less */
+  /* line 630, assets\less\style_media.less */
+  body .wrap .section .com .com_sub li p {
+    width: 300px;
+  }
+  /* line 639, assets\less\style_media.less */
   body .wrap .section .blog ul li {
     float: none;
-    margin: 20px 0 0 60px;
     transition: 1s;
+    width: 350px;
+    margin-left: 60px;
   }
-  /* line 637, assets\less\style_media.less */
+  /* line 644, assets\less\style_media.less */
+  body .wrap .section .blog ul li .bl_group {
+    width: 300px;
+    border: 1px #f00 solid;
+    margin: 0 auto;
+  }
+  /* line 650, assets\less\style_media.less */
   body .wrap .section .blog ul li img {
     width: 100%;
     height: 250px;
