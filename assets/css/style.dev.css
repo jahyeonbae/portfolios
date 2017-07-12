@@ -438,25 +438,24 @@ img {
 }
 /* line 1, assets\less\activity.less */
 .act_section {
-  width: 1200px;
   height: 1100px;
   margin: 0 360px;
   position: relative;
   top: -60px;
   overflow: hidden;
 }
-/* line 8, assets\less\activity.less */
+/* line 7, assets\less\activity.less */
 .act_section .as_left {
   width: 880px;
   height: 1100px;
   float: left;
   background-color: #FFF;
 }
-/* line 13, assets\less\activity.less */
+/* line 12, assets\less\activity.less */
 .act_section .as_left ul {
   margin: 60px 0 0 90px ;
 }
-/* line 15, assets\less\activity.less */
+/* line 14, assets\less\activity.less */
 .act_section .as_left ul li {
   width: 200px;
   height: 300px;
@@ -464,9 +463,10 @@ img {
   float: left;
   padding: 15px;
 }
-/* line 21, assets\less\activity.less */
+/* line 20, assets\less\activity.less */
 .act_section .as_left ul li img {
   width: 300%;
+  overflow: hidden;
 }
 /* line 27, assets\less\activity.less */
 .act_section .as_right {
@@ -512,31 +512,32 @@ img {
 @media screen and (max-width: 750px) {
   /* line 5, assets\less\activity_me.less */
   .wrap .w_top .m_top {
-    width: 730px;
     padding: 0 10px;
     background-image: none;
   }
-  /* line 11, assets\less\activity_me.less */
+  /* line 10, assets\less\activity_me.less */
   .wrap .act_section {
-    width: 730px;
-    padding: 0 10px;
+    border: 1px #f00 solid;
     margin: 0;
-    background-color: transparent;
   }
-  /* line 18, assets\less\activity_me.less */
+  /* line 13, assets\less\activity_me.less */
   .wrap .act_section .as-left {
+    margin: 0;
+    border: 1px #F00 solid;
     float: none;
-    background-color: none;
-    width: 100%;
   }
-  /* line 22, assets\less\activity_me.less */
+  /* line 17, assets\less\activity_me.less */
   .wrap .act_section .as-left ul {
+    border: 1px blue solid;
+    overflow: hidden;
     margin: 0;
   }
-  /* line 24, assets\less\activity_me.less */
+  /* line 21, assets\less\activity_me.less */
   .wrap .act_section .as-left ul li {
     width: 200px;
     height: 200px;
+    border: 1px #F00 solid;
+    overflow: hidden;
   }
 }
 /* line 1, assets\less\activity1.less */
