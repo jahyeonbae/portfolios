@@ -134,14 +134,14 @@ img {
 }
 /* line 3, assets\less\contact.less */
 .wrap .m_top {
-  width: 1920px;
   height: 180px;
   background-image: url('../images/au/au_bg.jpg');
   background-repeat: no-repeat;
   background-position-y: -580px;
   background-size: cover;
+  border: 1px #F00 solid;
 }
-/* line 10, assets\less\contact.less */
+/* line 11, assets\less\contact.less */
 .wrap .m_top h4 {
   color: #FFF;
   font-size: 24px;
@@ -149,9 +149,8 @@ img {
   text-align: center;
   padding: 40px;
 }
-/* line 18, assets\less\contact.less */
+/* line 19, assets\less\contact.less */
 .wrap .cu_section {
-  width: 1200px;
   height: 1100px;
   margin: 0 360px;
   position: relative;
@@ -159,26 +158,26 @@ img {
   background-color: #FFF;
   overflow: hidden;
 }
-/* line 26, assets\less\contact.less */
+/* line 27, assets\less\contact.less */
 .wrap .cu_section .cu_top {
   padding: 30px;
   width: 1000px;
 }
-/* line 29, assets\less\contact.less */
+/* line 30, assets\less\contact.less */
 .wrap .cu_section .cu_top img {
   width: 100%;
   margin-left: 100px;
   overflow: hidden;
 }
-/* line 35, assets\less\contact.less */
+/* line 36, assets\less\contact.less */
 .wrap .cu_section .cu_bot {
   margin: 0 100px;
 }
-/* line 37, assets\less\contact.less */
+/* line 38, assets\less\contact.less */
 .wrap .cu_section .cu_bot ul {
   margin-top: 30px;
 }
-/* line 39, assets\less\contact.less */
+/* line 40, assets\less\contact.less */
 .wrap .cu_section .cu_bot ul li {
   width: 32%;
   text-align: center;
@@ -186,22 +185,22 @@ img {
   float: left;
   padding: 5px;
 }
-/* line 45, assets\less\contact.less */
+/* line 46, assets\less\contact.less */
 .wrap .cu_section .cu_bot ul li .cb_b {
   margin-top: 30px;
 }
-/* line 48, assets\less\contact.less */
+/* line 49, assets\less\contact.less */
 .wrap .cu_section .cu_bot ul li img {
   width: 10%;
   margin: 5px;
 }
-/* line 52, assets\less\contact.less */
+/* line 53, assets\less\contact.less */
 .wrap .cu_section .cu_bot ul li h5 {
   font-size: 18px;
   text-transform: uppercase;
   padding: 10px;
 }
-/* line 57, assets\less\contact.less */
+/* line 58, assets\less\contact.less */
 .wrap .cu_section .cu_bot ul li span {
   display: block;
 }
@@ -447,7 +446,7 @@ img {
 /* line 7, assets\less\activity.less */
 .act_section .as_left {
   width: 880px;
-  height: 1100px;
+  height: 100%;
   float: left;
   background-color: #FFF;
 }
@@ -512,7 +511,6 @@ img {
 @media screen and (max-width: 750px) {
   /* line 5, assets\less\activity_me.less */
   .wrap .w_top .m_top {
-    padding: 0 10px;
     background-image: none;
   }
   /* line 10, assets\less\activity_me.less */
