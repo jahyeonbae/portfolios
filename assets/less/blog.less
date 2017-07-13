@@ -12,14 +12,21 @@
         }
     }
     .bs_right{
-        margin-left: 40.5%;
+        margin-left: 41%;
+        padding: 0 10px;
         // width: 1100px;
         .br_top{
             height: 100%;
+            ul{
+                margin-left: 12%;
+            }
                 li{
-                    width: 49%;
-                    margin-right: 10px;
+                    width: 40.5%;
                     float:left;
+                    margin: 10px;
+                    border: 5px @color-to solid;
+                    transition: 1s;
+
                     .b_g{
                         width: 150px;
                         padding: 0 30px 10px 25px;
@@ -30,7 +37,8 @@
                             display: inline-block;
                             width: 150px;
                             height: 20px;
-                            border: 1px #8fd614 solid;
+                            border: 1px @color-main solid;
+                            text-align: center;
                         }
                         span:last-child{
                             position: absolute;
@@ -69,13 +77,14 @@
                     width: 100%;
                 }
                 h4{
-                    padding: 10px;
                     font-size: 18px;
-                    margin: 15px 0;
+                    margin: 15px auto;
+                    width: 200px;
                 }
                 p{
                     line-height: 25px;
-                    margin-bottom: 30px;
+                    width: 95%;
+                    margin: 0 auto;
                 }
         }
         .br_mid{
