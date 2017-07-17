@@ -1654,6 +1654,12 @@ img {
     transition: 1s;
   }
   /* line 650, assets\less\style_media.less */
+  body .wrap .section .blog ul li .bl_group .date {
+    padding: 0;
+    width: 200px;
+    height: 30px;
+  }
+  /* line 655, assets\less\style_media.less */
   body .wrap .section .blog ul li .bl_group .b_title {
     font-size: 15px;
     width: 280px;
@@ -1661,7 +1667,7 @@ img {
     padding: 0 10px;
     transition: 1s;
   }
-  /* line 657, assets\less\style_media.less */
+  /* line 662, assets\less\style_media.less */
   body .wrap .section .blog ul li .bl_group .b_con {
     font-size: 12px;
     width: 330px;
@@ -1669,35 +1675,35 @@ img {
     padding: 0 10px;
     transition: 1s;
   }
-  /* line 664, assets\less\style_media.less */
+  /* line 669, assets\less\style_media.less */
   body .wrap .section .blog ul li .bl_group .read {
     position: relative;
     top: -25px;
     left: 180px;
     transition: 1s;
   }
-  /* line 670, assets\less\style_media.less */
+  /* line 675, assets\less\style_media.less */
   body .wrap .section .blog ul li .bl_group p.read:after {
     position: relative;
     top: -26px;
     left: 60px;
     transition: 1s;
   }
-  /* line 676, assets\less\style_media.less */
+  /* line 681, assets\less\style_media.less */
   body .wrap .section .blog ul li .bl_group p.date:after {
     position: relative;
     top: -20px;
     left: 270px;
     transition: 1s;
   }
-  /* line 682, assets\less\style_media.less */
+  /* line 687, assets\less\style_media.less */
   body .wrap .section .blog ul li .bl_group p.date:before {
     position: relative;
     top: 18px;
     left: 250px;
     transition: 1s;
   }
-  /* line 689, assets\less\style_media.less */
+  /* line 694, assets\less\style_media.less */
   body .wrap .section .blog ul li img {
     width: 100%;
     height: 250px;
@@ -2327,57 +2333,57 @@ img {
 .blog_section .bs_right .br_mid li .b_pg {
   width: 100%;
   margin: 20px;
-  border: 1px #F00 solid;
 }
-/* line 145, assets\less\blog.less */
+/* line 144, assets\less\blog.less */
 .blog_section .bs_right .br_mid li .b_pg h4 {
   padding: 10px 0 20px 0;
   font-size: 18px;
 }
-/* line 149, assets\less\blog.less */
+/* line 148, assets\less\blog.less */
 .blog_section .bs_right .br_mid li .b_pg p {
   line-height: 25px;
   margin-bottom: 30px;
 }
 @media screen and (max-width: 750px) {
-  /* line 3, assets\less\blog_me.less */
-  .blog_section {
+  /* line 4, assets\less\blog_me.less */
+  .wrap .blog_section {
+    height: 930px;
     transition: 1s;
   }
-  /* line 8, assets\less\blog_me.less */
-  .blog_section .bs_right .br_top ul {
+  /* line 9, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_top ul {
     margin-left: 0;
   }
-  /* line 11, assets\less\blog_me.less */
-  .blog_section .bs_right .br_top li {
+  /* line 12, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_top li {
     width: 42%;
   }
-  /* line 14, assets\less\blog_me.less */
-  .blog_section .bs_right .br_top li .b_g span {
+  /* line 15, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_top li .b_g span {
     font-size: 12px;
     padding: 0;
     width: 100px;
     text-align: center;
   }
-  /* line 20, assets\less\blog_me.less */
-  .blog_section .bs_right .br_top li .b_g span:last-child {
+  /* line 21, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_top li .b_g span:last-child {
     position: relative;
     top: 0;
     left: 15px;
     display: inline-block;
     width: 15px;
   }
-  /* line 29, assets\less\blog_me.less */
-  .blog_section .bs_right .br_top h4 {
+  /* line 30, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_top h4 {
     font-size: 16px;
     width: 100px;
   }
-  /* line 33, assets\less\blog_me.less */
-  .blog_section .bs_right .br_top p {
+  /* line 34, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_top p {
     font-size: 12px;
   }
-  /* line 36, assets\less\blog_me.less */
-  .blog_section .bs_right .br_top div.b_g::after {
+  /* line 37, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_top div.b_g::after {
     content: "";
     position: relative;
     left: 130px;
@@ -2385,8 +2391,8 @@ img {
     width: 15px;
     height: 15px;
   }
-  /* line 44, assets\less\blog_me.less */
-  .blog_section .bs_right .br_top div.b_g::before {
+  /* line 45, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_top div.b_g::before {
     content: "";
     width: 15px;
     height: 15px;
@@ -2394,42 +2400,153 @@ img {
     left: -20px;
     top: 20px;
   }
-  /* line 59, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid ul li.nth-child(1) {
-    border: 1px #F00 solid;
+  /* line 57, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li:nth-child(7) {
+    display: none;
+    transition: 1s;
   }
-  /* line 63, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid ul nth-child(5) {
-    border: 1px #F00 solid;
+  /* line 61, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li:nth-child(8) {
+    display: none;
+    transition: 1s;
   }
-  /* line 68, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li {
+  /* line 65, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li:nth-child(9) {
+    display: none;
+    transition: 1s;
+  }
+  /* line 69, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li:nth-child(10) {
+    display: none;
+    transition: 1s;
+  }
+  /* line 73, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li {
     height: 150px;
   }
-  /* line 70, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li img {
+  /* line 75, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li img {
     padding: 0;
     width: 100%;
   }
-  /* line 75, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li .b_pg {
-    margin: 40px 0 0 10px;
+  /* line 79, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg {
+    margin: 10px 0 0 10px;
     width: 150px;
   }
-  /* line 79, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li .b_pg h4 {
+  /* line 83, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg h4 {
     width: 180px;
     transition: 1s;
     font-size: 16px;
     text-align: center;
   }
-  /* line 88, assets\less\blog_me.less */
+  /* line 90, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg .b_g span {
+    padding: 0;
+    width: 100px;
+    text-align: center;
+  }
+  /* line 95, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg .b_g span:last-child {
+    position: relative;
+    top: 0;
+    left: 15px;
+    display: inline-block;
+    width: 15px;
+  }
+  /* line 103, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg div.b_g::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 110px;
+    top: -20px;
+  }
+  /* line 111, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg div.b_g::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: -20px;
+    top: 20px;
+  }
+  /* line 120, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg p {
+    display: none;
+  }
+  /* line 123, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg span {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 137, assets\less\blog_me.less */
+  .blog_section {
+    height: 600px;
+    transition: 1s;
+  }
+  /* line 140, assets\less\blog_me.less */
+  .blog_section .bs_right {
+    margin: 0;
+  }
+  /* line 143, assets\less\blog_me.less */
+  .blog_section .bs_right .br_top .b_g {
+    display: none;
+  }
+  /* line 146, assets\less\blog_me.less */
+  .blog_section .bs_right .br_top ul {
+    width: 600px;
+  }
+  /* line 149, assets\less\blog_me.less */
+  .blog_section .bs_right .br_top h4 {
+    margin: 10px 0 10px 50px;
+    transition: 1s;
+    width: 200px;
+  }
+  /* line 154, assets\less\blog_me.less */
+  .blog_section .bs_right .br_top li:nth-child(2) {
+    display: none;
+    transition: 1s;
+  }
+  /* line 161, assets\less\blog_me.less */
+  .blog_section .bs_right .br_mid li:nth-child(7) {
+    display: visible;
+  }
+  /* line 164, assets\less\blog_me.less */
+  .blog_section .bs_right .br_mid li {
+    height: 30%;
+    width: 30%;
+    float: left;
+  }
+  /* line 168, assets\less\blog_me.less */
+  .blog_section .bs_right .br_mid li img {
+    padding: 0;
+    margin: 5px;
+    width: 100%;
+    float: left;
+  }
+  /* line 174, assets\less\blog_me.less */
+  .blog_section .bs_right .br_mid li .b_pg {
+    width: 150px;
+    display: none;
+  }
+  /* line 178, assets\less\blog_me.less */
+  .blog_section .bs_right .br_mid li .b_pg h4 {
+    width: 100px;
+    transition: 1s;
+    font-size: 16px;
+    text-align: center;
+  }
+  /* line 185, assets\less\blog_me.less */
   .blog_section .bs_right .br_mid li .b_pg .b_g span {
     padding: 0;
     width: 100px;
     text-align: center;
   }
-  /* line 93, assets\less\blog_me.less */
+  /* line 190, assets\less\blog_me.less */
   .blog_section .bs_right .br_mid li .b_pg .b_g span:last-child {
     position: relative;
     top: 0;
@@ -2437,7 +2554,7 @@ img {
     display: inline-block;
     width: 15px;
   }
-  /* line 101, assets\less\blog_me.less */
+  /* line 198, assets\less\blog_me.less */
   .blog_section .bs_right .br_mid li .b_pg div.b_g::after {
     content: "";
     width: 15px;
@@ -2446,7 +2563,7 @@ img {
     left: 110px;
     top: -20px;
   }
-  /* line 109, assets\less\blog_me.less */
+  /* line 206, assets\less\blog_me.less */
   .blog_section .bs_right .br_mid li .b_pg div.b_g::before {
     content: "";
     width: 15px;
@@ -2455,11 +2572,11 @@ img {
     left: -20px;
     top: 20px;
   }
-  /* line 118, assets\less\blog_me.less */
+  /* line 214, assets\less\blog_me.less */
   .blog_section .bs_right .br_mid li .b_pg p {
     display: none;
   }
-  /* line 121, assets\less\blog_me.less */
+  /* line 217, assets\less\blog_me.less */
   .blog_section .bs_right .br_mid li .b_pg span {
     font-size: 12px;
   }
