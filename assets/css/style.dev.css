@@ -2347,7 +2347,7 @@ img {
 @media screen and (max-width: 750px) {
   /* line 4, assets\less\blog_me.less */
   .wrap .blog_section {
-    height: 930px;
+    height: 950px;
     transition: 1s;
   }
   /* line 9, assets\less\blog_me.less */
@@ -2483,79 +2483,79 @@ img {
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 137, assets\less\blog_me.less */
-  .blog_section {
+  /* line 139, assets\less\blog_me.less */
+  .wrap .blog_section {
     height: 600px;
     transition: 1s;
   }
-  /* line 140, assets\less\blog_me.less */
-  .blog_section .bs_right {
+  /* line 142, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right {
     margin: 0;
   }
-  /* line 143, assets\less\blog_me.less */
-  .blog_section .bs_right .br_top .b_g {
+  /* line 145, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_top .b_g {
     display: none;
   }
-  /* line 146, assets\less\blog_me.less */
-  .blog_section .bs_right .br_top ul {
+  /* line 148, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_top ul {
     width: 600px;
   }
-  /* line 149, assets\less\blog_me.less */
-  .blog_section .bs_right .br_top h4 {
+  /* line 151, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_top h4 {
     margin: 10px 0 10px 50px;
     transition: 1s;
     width: 200px;
   }
-  /* line 154, assets\less\blog_me.less */
-  .blog_section .bs_right .br_top li:nth-child(2) {
+  /* line 156, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_top li:nth-child(2) {
     display: none;
     transition: 1s;
   }
-  /* line 161, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li:nth-child(7) {
+  /* line 163, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li:nth-child(7) {
     display: visible;
   }
-  /* line 164, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li {
+  /* line 166, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li {
     height: 30%;
     width: 30%;
     float: left;
   }
-  /* line 168, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li img {
+  /* line 170, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li img {
     padding: 0;
     margin: 5px;
     width: 100%;
     float: left;
   }
-  /* line 174, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li .b_pg {
+  /* line 176, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg {
     width: 150px;
     display: none;
   }
-  /* line 178, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li .b_pg h4 {
+  /* line 180, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg h4 {
     width: 100px;
     transition: 1s;
     font-size: 16px;
     text-align: center;
   }
-  /* line 185, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li .b_pg .b_g span {
+  /* line 187, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg .b_g span {
     padding: 0;
     width: 100px;
     text-align: center;
   }
-  /* line 190, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li .b_pg .b_g span:last-child {
+  /* line 192, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg .b_g span:last-child {
     position: relative;
     top: 0;
     left: 15px;
     display: inline-block;
     width: 15px;
   }
-  /* line 198, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li .b_pg div.b_g::after {
+  /* line 200, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg div.b_g::after {
     content: "";
     width: 15px;
     height: 15px;
@@ -2563,8 +2563,8 @@ img {
     left: 110px;
     top: -20px;
   }
-  /* line 206, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li .b_pg div.b_g::before {
+  /* line 208, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg div.b_g::before {
     content: "";
     width: 15px;
     height: 15px;
@@ -2572,12 +2572,12 @@ img {
     left: -20px;
     top: 20px;
   }
-  /* line 214, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li .b_pg p {
+  /* line 216, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg p {
     display: none;
   }
-  /* line 217, assets\less\blog_me.less */
-  .blog_section .bs_right .br_mid li .b_pg span {
+  /* line 219, assets\less\blog_me.less */
+  .wrap .blog_section .bs_right .br_mid li .b_pg span {
     font-size: 12px;
   }
 }
@@ -3326,7 +3326,6 @@ img {
 /* line 1, assets\less\shop.less */
 .shop_section {
   width: 1200px;
-  height: 1200px;
   margin: 0 360px;
   position: relative;
   top: -60px;
@@ -3453,6 +3452,23 @@ img {
 .shop_section .shop_right .shr_bot {
   height: 250px;
   overflow: hidden;
+}
+@media screen and (max-width: 750px) {
+  /* line 4, assets\less\shop_me.less */
+  .wrap .shop_section {
+    border: 1px #F00 solid;
+    margin: 0;
+    height: 520px;
+    transition: 1s;
+  }
+  /* line 9, assets\less\shop_me.less */
+  .wrap .shop_section .shop_left {
+    float: none;
+  }
+  /* line 11, assets\less\shop_me.less */
+  .wrap .shop_section .shop_left .sl_top {
+    margin: 0;
+  }
 }
 /* line 1, assets\less\shop2.less */
 .shop2_section {
