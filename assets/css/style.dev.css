@@ -774,9 +774,10 @@ img {
   background-image: url('../images/main/com_re.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
 }
-/* line 490, assets\less\style.less */
+/* line 491, assets\less\style.less */
 .section .com h4 {
   text-transform: uppercase;
   font-size: 24px;
@@ -785,18 +786,18 @@ img {
   top: 150px;
   left: 370px;
 }
-/* line 498, assets\less\style.less */
+/* line 499, assets\less\style.less */
 .section .com .com_sub {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 502, assets\less\style.less */
+/* line 503, assets\less\style.less */
 .section .com .com_sub ul {
   width: 1200px;
   margin: auto;
 }
-/* line 506, assets\less\style.less */
+/* line 507, assets\less\style.less */
 .section .com .com_sub li {
   width: 30%;
   height: 100%;
@@ -804,7 +805,7 @@ img {
   background-color: rgba(0, 0, 0, 0.1);
   margin: 200px 10px;
 }
-/* line 512, assets\less\style.less */
+/* line 513, assets\less\style.less */
 .section .com .com_sub li p {
   color: #FFF;
   font-size: 14px;
@@ -812,7 +813,7 @@ img {
   margin: auto;
   width: 300px;
 }
-/* line 519, assets\less\style.less */
+/* line 520, assets\less\style.less */
 .section .com .com_sub li span[class^="cs_face"] {
   display: block;
   width: 80px;
@@ -823,27 +824,27 @@ img {
   left: 5%;
   margin: 10px;
 }
-/* line 529, assets\less\style.less */
+/* line 530, assets\less\style.less */
 .section .com .com_sub li .cs_facel {
   background-image: url('../images/main/facel.jpg');
   background-repeat: no-repeat;
   background-size: 200px 200px;
   background-position: -106px -4px;
 }
-/* line 535, assets\less\style.less */
+/* line 536, assets\less\style.less */
 .section .com .com_sub li .cs_facem {
   background-image: url('../images/main/facem.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 540, assets\less\style.less */
+/* line 541, assets\less\style.less */
 .section .com .com_sub li .cs_faceb {
   background-image: url('../images/main/faceb.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -19px 0px;
 }
-/* line 546, assets\less\style.less */
+/* line 547, assets\less\style.less */
 .section .com .com_sub li .cs_name {
   color: #FFF;
   width: 30px;
@@ -854,7 +855,7 @@ img {
   left: 125px;
   text-transform: capitalize;
 }
-/* line 557, assets\less\style.less */
+/* line 558, assets\less\style.less */
 .section .com .com_sub p:before {
   content: "";
   width: 20px;
@@ -865,35 +866,35 @@ img {
   background-size: cover;
   margin: 10px 10px 0 10px;
 }
-/* line 570, assets\less\style.less */
+/* line 571, assets\less\style.less */
 .section .blog {
   background-image: url('../images/main/blog_1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
 }
-/* line 575, assets\less\style.less */
+/* line 576, assets\less\style.less */
 .section .blog ul {
   width: 1100px;
   margin: auto;
 }
-/* line 579, assets\less\style.less */
+/* line 580, assets\less\style.less */
 .section .blog ul li {
   width: 31.5%;
   float: left;
   margin-left: 18px;
 }
-/* line 583, assets\less\style.less */
+/* line 584, assets\less\style.less */
 .section .blog ul li img {
   width: 100%;
   height: 250px;
 }
-/* line 587, assets\less\style.less */
+/* line 588, assets\less\style.less */
 .section .blog ul li p {
   width: 300px;
   margin-top: 5px;
 }
-/* line 591, assets\less\style.less */
+/* line 592, assets\less\style.less */
 .section .blog ul li .date {
   font-weight: bold;
   color: grey;
@@ -901,19 +902,19 @@ img {
   margin: 20px 0;
   text-transform: capitalize;
 }
-/* line 598, assets\less\style.less */
+/* line 599, assets\less\style.less */
 .section .blog ul li .b_title {
   font-weight: bold;
   margin: 10px 0;
   font-size: 20px;
 }
-/* line 603, assets\less\style.less */
+/* line 604, assets\less\style.less */
 .section .blog ul li .read {
   font-weight: bold;
   color: #546A79;
   margin-top: 10px;
 }
-/* line 608, assets\less\style.less */
+/* line 609, assets\less\style.less */
 .section .blog ul li p.date:after {
   content: "";
   width: 20px;
@@ -925,7 +926,7 @@ img {
   background-image: url('../images/footer/chat.png');
   background-repeat: no-repeat;
 }
-/* line 619, assets\less\style.less */
+/* line 620, assets\less\style.less */
 .section .blog ul li p.date:before {
   content: "5";
   width: 20px;
@@ -935,7 +936,7 @@ img {
   top: -2px;
   right: 8px;
 }
-/* line 629, assets\less\style.less */
+/* line 630, assets\less\style.less */
 .section .blog ul li p.read:after {
   content: "";
   width: 15px;
@@ -2035,29 +2036,25 @@ img {
 @media screen and (max-width: 750px) {
   /* line 5, assets\less\activity_me.less */
   .wrap .w_top .m_top {
-    background-image: url('../images/au/au_bg.jpg');
-    height: 180px;
     background-position-y: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
-  /* line 13, assets\less\activity_me.less */
+  /* line 9, assets\less\activity_me.less */
   .wrap .act_section {
     margin: 0;
     height: 520px;
     overflow: hidden;
     transition: 1s;
   }
-  /* line 18, assets\less\activity_me.less */
+  /* line 14, assets\less\activity_me.less */
   .wrap .act_section .as_left {
     float: none;
   }
-  /* line 20, assets\less\activity_me.less */
+  /* line 16, assets\less\activity_me.less */
   .wrap .act_section .as_left ul {
     margin: 20px;
     transition: 1s;
   }
-  /* line 23, assets\less\activity_me.less */
+  /* line 19, assets\less\activity_me.less */
   .wrap .act_section .as_left ul li {
     width: 200px;
     height: 200px;
@@ -3457,26 +3454,44 @@ img {
 @media screen and (max-width: 750px) {
   /* line 4, assets\less\shop_me.less */
   .wrap .shop_section {
+    height: 1000px;
     margin: 0;
     transition: 1s;
   }
-  /* line 7, assets\less\shop_me.less */
+  /* line 8, assets\less\shop_me.less */
   .wrap .shop_section .shop_left {
     float: none;
   }
-  /* line 9, assets\less\shop_me.less */
+  /* line 10, assets\less\shop_me.less */
   .wrap .shop_section .shop_left .sl_top {
     margin: 0;
   }
-  /* line 11, assets\less\shop_me.less */
+  /* line 12, assets\less\shop_me.less */
+  .wrap .shop_section .shop_left .sl_top ul {
+    margin: 5px;
+  }
+  /* line 15, assets\less\shop_me.less */
   .wrap .shop_section .shop_left .sl_top li {
-    width: 18%;
+    width: 27%;
     margin-right: 5px;
     padding: 0;
   }
-  /* line 17, assets\less\shop_me.less */
+  /* line 21, assets\less\shop_me.less */
   .wrap .shop_section .shop_left .sl_mid {
     margin: 0;
+  }
+  /* line 23, assets\less\shop_me.less */
+  .wrap .shop_section .shop_left .sl_mid ul {
+    margin: auto;
+  }
+  /* line 26, assets\less\shop_me.less */
+  .wrap .shop_section .shop_left .sl_mid li {
+    width: 28%;
+    margin: 0;
+  }
+  /* line 30, assets\less\shop_me.less */
+  .wrap .shop_section .shop_left .sl_mid .sl_con {
+    margin-bottom: 5px;
   }
 }
 /* line 1, assets\less\shop2.less */
