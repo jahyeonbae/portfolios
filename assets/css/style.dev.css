@@ -2037,26 +2037,27 @@ img {
   .wrap .w_top .m_top {
     background-image: url('../images/au/au_bg.jpg');
     height: 180px;
+    background-position-y: 0;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  /* line 12, assets\less\activity_me.less */
+  /* line 13, assets\less\activity_me.less */
   .wrap .act_section {
     margin: 0;
     height: 520px;
     overflow: hidden;
     transition: 1s;
   }
-  /* line 17, assets\less\activity_me.less */
+  /* line 18, assets\less\activity_me.less */
   .wrap .act_section .as_left {
     float: none;
   }
-  /* line 19, assets\less\activity_me.less */
+  /* line 20, assets\less\activity_me.less */
   .wrap .act_section .as_left ul {
     margin: 20px;
     transition: 1s;
   }
-  /* line 22, assets\less\activity_me.less */
+  /* line 23, assets\less\activity_me.less */
   .wrap .act_section .as_left ul li {
     width: 200px;
     height: 200px;
@@ -3456,17 +3457,25 @@ img {
 @media screen and (max-width: 750px) {
   /* line 4, assets\less\shop_me.less */
   .wrap .shop_section {
-    border: 1px #F00 solid;
     margin: 0;
-    height: 520px;
     transition: 1s;
   }
-  /* line 9, assets\less\shop_me.less */
+  /* line 7, assets\less\shop_me.less */
   .wrap .shop_section .shop_left {
     float: none;
   }
-  /* line 11, assets\less\shop_me.less */
+  /* line 9, assets\less\shop_me.less */
   .wrap .shop_section .shop_left .sl_top {
+    margin: 0;
+  }
+  /* line 11, assets\less\shop_me.less */
+  .wrap .shop_section .shop_left .sl_top li {
+    width: 18%;
+    margin-right: 5px;
+    padding: 0;
+  }
+  /* line 17, assets\less\shop_me.less */
+  .wrap .shop_section .shop_left .sl_mid {
     margin: 0;
   }
 }
