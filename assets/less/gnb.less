@@ -14,7 +14,7 @@
     .t_right{
              float:right;
              padding: 5px 10px 0 0;
-             width: 280px;
+             width: 300px;
              li{
                  float:left;
                  padding: 5px;
@@ -32,12 +32,12 @@
             top: 3px;
         }
         .r_search{
-            width: 200px;
+            width: 150px;
             white-space:normal;
             .search{
                 width: 150px;
                 height: 30px;
-                background-color: #eaed16;
+                background-color: @color-menu;
                 border:none;
                 font-size: 12px;
                 float:left;
@@ -47,8 +47,37 @@
                 background-size: 15px 15px;
                 background-position: 5px 8px;
             }
-            label{
-                text-indent: -9999px;
+
+            // label{
+            //     text-indent: -9999px;
+            // }
+        }
+        .navi{
+            position: relative;
+            top: 5px;
+            // left: -30px;
+            span{
+                display: block;
+                width: 28px;
+                height: 4px;
+                background-color: #000;
+                margin-bottom: 3px;
+            }
+            .line-f{
+                position: absolute;
+                top: 0;
+                left: 0;
+                animation:line, 1s;
+            }
+            .line-s{
+                position: absolute;
+                top: 10px;
+                left: 0;
+            }
+            .line-t{
+                position: absolute;
+                top: 20px;
+                left: 0;
             }
         }
     }
@@ -57,7 +86,7 @@
 
 .menu-bar{
     height: 70px;
-    background: #304021;
+    background: @color-sub;
 
     ul{
         width: 1250px;
@@ -69,12 +98,15 @@
             text-align: center;
             line-height: 70px;
             div{
-                display:none;
+                position: relative;
+                z-index: 3;
+                display: none;
             }
             li{
                 width: 250px;
                 height: 70px;
-                background-color: #294a0b;
+                background-color: @color-spring;
+                // background-color: #294a0b;
                 font-size: 14px;
 
                 a{

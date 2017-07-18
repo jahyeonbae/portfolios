@@ -42,18 +42,30 @@ img{
     from{transform: rotate(360deg);}
     to{transform: translate(5,5);}
 };
+
 .title>img:hover{
     position:relative;
     animation:tomato.1s infinite;
     transition: 1s;
 }
+
 @keyframes line{
     0%{left: 0px;}
+    50%{left: 50px;}
     100%{left: 20px;}
 }
+
+.navi{
+    .line-f:hover{
+    position: relative;
+    animation:line.1s infinite;
+    transition: 1s;
+    cursor: pointer;
+    }
+}
+
 .rb_left img:hover{
    transform: rotate(15deg);
-
 }
 
 .rb_right li:hover{
