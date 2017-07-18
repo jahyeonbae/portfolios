@@ -47,10 +47,6 @@
                 background-size: 15px 15px;
                 background-position: 5px 8px;
             }
-
-            // label{
-            //     text-indent: -9999px;
-            // }
         }
         .navi{
             position: relative;
@@ -86,7 +82,21 @@
 
 .menu-bar{
     height: 70px;
+    width: 100%;
     background: @color-sub;
+    .slide{
+        overflow: hidden;
+        background-color: @color-spring;
+        position: relative;
+        z-index: 3;
+    }
+    .menu>div{
+        overflow: hidden;
+        background-color: @color-spring;
+        position: relative;
+        z-index: 3;
+    }
+
 
     ul{
         width: 1250px;
@@ -97,18 +107,10 @@
             float:left;
             text-align: center;
             line-height: 70px;
-            div{
-                position: relative;
-                z-index: 3;
-                display: none;
-            }
             li{
                 width: 250px;
                 height: 70px;
-                background-color: @color-spring;
-                // background-color: #294a0b;
                 font-size: 14px;
-
                 a{
                     font-size: 14px;
                 }
