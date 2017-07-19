@@ -38,32 +38,56 @@ img {
   animation: tomato.1s infinite;
   transition: 1s;
 }
-@keyframes line {
+@keyframes move-f {
   /* line 53, assets\less\common.less */
   0% {
-    left: 0px;
+    width: 28px;
   }
   /* line 54, assets\less\common.less */
   50% {
-    left: 50px;
+    width: 0px;
   }
   /* line 55, assets\less\common.less */
   100% {
-    left: 20px;
+    width: 28px;
   }
 }
-/* line 59, assets\less\common.less */
-.navi .line-f:hover {
+@keyframes move-s {
+  /* line 58, assets\less\common.less */
+  0% {
+    width: 0px;
+  }
+  /* line 59, assets\less\common.less */
+  50% {
+    width: 14px;
+  }
+  /* line 60, assets\less\common.less */
+  100% {
+    width: 28px;
+  }
+}
+@keyframes move-t {
+  /* line 63, assets\less\common.less */
+  0% {
+    width: 0px;
+  }
+  /* line 64, assets\less\common.less */
+  100% {
+    width: 28px;
+  }
+}
+/* line 67, assets\less\common.less */
+.navi:hover {
   position: relative;
-  animation: line.1s infinite;
+  animation: move-f 0.3s infinite;
   transition: 1s;
   cursor: pointer;
 }
-/* line 67, assets\less\common.less */
+/* line 93, assets\less\common.less */
 .rb_left img:hover {
   transform: rotate(15deg);
 }
-/* line 71, assets\less\common.less */
+/* line 97, assets\less\common.less */
 .rb_right li:hover {
   position: relative;
   transform: translatey(-50px);
@@ -129,12 +153,7 @@ img {
   background-size: 15px 15px;
   background-position: 5px 8px;
 }
-/* line 51, assets\less\gnb.less */
-.top-bar .t_right .navi {
-  position: relative;
-  top: 5px;
-}
-/* line 55, assets\less\gnb.less */
+/* line 52, assets\less\gnb.less */
 .top-bar .t_right .navi span {
   display: block;
   width: 28px;
@@ -142,51 +161,25 @@ img {
   background-color: #000;
   margin-bottom: 3px;
 }
-/* line 62, assets\less\gnb.less */
-.top-bar .t_right .navi .line-f {
-  position: absolute;
-  top: 0;
-  left: 0;
-  animation: line, 1s;
-}
-/* line 68, assets\less\gnb.less */
-.top-bar .t_right .navi .line-s {
-  position: absolute;
-  top: 10px;
-  left: 0;
-}
-/* line 73, assets\less\gnb.less */
-.top-bar .t_right .navi .line-t {
-  position: absolute;
-  top: 20px;
-  left: 0;
-}
-/* line 83, assets\less\gnb.less */
+/* line 80, assets\less\gnb.less */
 .menu-bar {
   height: 70px;
   width: 100%;
   background: #304021;
 }
-/* line 87, assets\less\gnb.less */
+/* line 84, assets\less\gnb.less */
 .menu-bar .slide {
   overflow: hidden;
   background-color: rgba(44, 239, 67, 0.3);
   position: relative;
   z-index: 3;
 }
-/* line 93, assets\less\gnb.less */
-.menu-bar .menu > div {
-  overflow: hidden;
-  background-color: rgba(44, 239, 67, 0.3);
-  position: relative;
-  z-index: 3;
-}
-/* line 101, assets\less\gnb.less */
+/* line 99, assets\less\gnb.less */
 .menu-bar ul {
   width: 1250px;
   margin: 0 auto;
 }
-/* line 104, assets\less\gnb.less */
+/* line 102, assets\less\gnb.less */
 .menu-bar ul .menu {
   width: 250px;
   height: 70px;
@@ -194,32 +187,32 @@ img {
   text-align: center;
   line-height: 70px;
 }
-/* line 110, assets\less\gnb.less */
+/* line 108, assets\less\gnb.less */
 .menu-bar ul .menu li {
   width: 250px;
   height: 70px;
   font-size: 14px;
 }
-/* line 114, assets\less\gnb.less */
+/* line 112, assets\less\gnb.less */
 .menu-bar ul .menu li a {
   font-size: 14px;
 }
-/* line 118, assets\less\gnb.less */
+/* line 116, assets\less\gnb.less */
 .menu-bar ul .menu a {
   color: #FFF;
   text-transform: uppercase;
   font-size: 18px;
 }
 @media screen and (max-width: 479px) {
-  /* line 128, assets\less\gnb.less */
+  /* line 126, assets\less\gnb.less */
   .top-bar {
     background-color: #FFF;
   }
-  /* line 130, assets\less\gnb.less */
+  /* line 128, assets\less\gnb.less */
   .top-bar .logo {
     max-width: 50%;
   }
-  /* line 134, assets\less\gnb.less */
+  /* line 132, assets\less\gnb.less */
   .t_right {
     display: none;
   }
