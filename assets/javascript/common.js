@@ -1,7 +1,8 @@
 $(function(){
 
       $('.menu').mouseover(function(){
-         $(this>div).css('display','block');
+         $('.slide').slideDown();
      });
+     console.log('agrah')
 
 })
