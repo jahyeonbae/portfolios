@@ -49,19 +49,45 @@ img{
     transition: 1s;
 }
 
-@keyframes line{
-    0%{left: 0px;}
-    50%{left: 50px;}
-    100%{left: 20px;}
+@keyframes move-f{
+    0%{width: 28px;}
+    50%{width: 0px;}
+    100%{width: 28px;}
+}
+@keyframes move-s{
+    0%{width: 0px;}
+    50%{width: 14px;}
+    100%{width: 28px;}
+}
+@keyframes move-t{
+    0%{width: 0px;}
+    100%{width: 28px;}
 }
 
-.navi{
-    .line-f:hover{
+.navi:hover{
     position: relative;
-    animation:line.1s infinite;
+    animation:move-f.3s infinite;
     transition: 1s;
     cursor: pointer;
-    }
+
+    // .line-f:hover{
+    // position: relative;
+    // animation: move-f.3s infinite;
+    // transition: 1s;
+    // cursor: pointer;
+    // }
+    // .line-s:hover{
+    // position: relative;
+    // animation: move-s.3s infinite;
+    // transition: 1s;
+    // cursor: pointer;
+    // }
+    // .line-t:hover{
+    // position: relative;
+    // animation: move-t.3s infinite;
+    // transition: 1s;
+    // cursor: pointer;
+    // }
 }
 
 .rb_left img:hover{
@@ -70,7 +96,6 @@ img{
 
 .rb_right li:hover{
     position: relative;
-    // animation:up.1s infinite;
     transform: translatey(-50px);
     transtion: 1s;
 }
