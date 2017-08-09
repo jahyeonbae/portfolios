@@ -1,20 +1,31 @@
 $(function(){
 
-<<<<<<< HEAD
+      $('.slide>ul>li').mouseover(function(){
+         $(this).children('div').stop().slideDown()
+       })
+      $('.slide>ul>li').mouseleave(function(){
+        $(this).children('div').stop().slideUp()
+      })
+
       $('.menu').mouseover(function(){
-         $('.slide').slideDown();
-=======
-      $('.slide').mouseover(function(){
-         $('.slide').css('');
-         console.log('agaeh')
->>>>>>> 91c6e36ca2e41c1f80df2ac6fdb6e0fffcee66fc
-     });
-     console.log('agrah')
+        $(this).children('.bar').stop().css({display:"block"}).animate({
+          left:"30px"
+        })
+      $('.menu').mouseleave(function(){
+        $(this).children('.bar').stop().animate({
+          left:"-100px"}).css('display','none')
+      })
+  })
 
-     $('.navi').mouseover(function(){
-         $('.navi>span').animate('transform-origin','50%');
-         console.log('agaha')
-     })
+      $('.navi').click(function(){
+        $(this).next('div').stop().slideDown()
+       },function(){
+        $(this).next('div').stop().slideUp()
+
+ })
 
 
-})
+
+
+
+});

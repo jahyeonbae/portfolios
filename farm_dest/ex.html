@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+html{
+    /*width: 200%;*/
+    /*스크롤바가 생긴다. 근거가 창사이즈이다.*/
+}
+body{
+    /*width: 500px;*/
+}
+.box{
+    border: 1px #f00 solid;
+    /*margin: auto;*/
+    /*아무런 변화가 없다. margin은 위치이동이 아니다. 박스모델이 커지거나 줄어드는 것이다.
+    0 auto는 상단과 하단에 margin을 0으로 주기 위함이지 쓰지 않아도 아무런 상관이 없다.*/
+    /*width: 500px;*/
+    /*중앙에 정렬된다.*/
+    /*margin-left: auto;*/
+    /*오른쪽 정렬이 된다. 창사이즈를 늘렸다 줄였다 하면 오른쪽을 기준으로 움직인다.
+    마치 float:right를 준것처럼*/
+
+    /*width: auto;
+    margin: 0 200px;*/
+    /*양옆은 고정적으로 떨어지고 width값은 고정된다. */
+    max-width: 900px;
+    /*창사이즈가 줄어들면 900px가 될때 크기가 줄어든다. */
+    margin: auto;
+    height: 900px;
+}
+.nemo{
+    border: 1px #000 solid;
+    /*값은 지정해주지 않았기 때문에 width값이 auto로 부모만큼이다.*/
+}
+</style>
+</head>
+<body>
+    <div class="box">
+        <div class="nemo">
+
+        </div>
+    </div>
+</body>
+</html>

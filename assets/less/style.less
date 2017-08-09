@@ -51,6 +51,9 @@
             img{
                 width: 100%;
                 transition: 1s;
+                position: relative;
+                z-index: 0;
+                // display: none;
             }
             &:before{
                 content:"";
@@ -61,6 +64,7 @@
                 right: 0;
                 z-index:1;
                 background-color: rgba(0,0,0,0.5);
+                // display: none;
             }
             &:hover img{
                filter:grayscale(80%);
