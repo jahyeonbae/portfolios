@@ -121,35 +121,53 @@ img {
   padding: 5px;
 }
 /* line 22, assets\less\gnb.less */
+.top-bar .t_right button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* line 27, assets\less\gnb.less */
 .top-bar .t_right .cart {
   width: 25px;
   height: 25px;
-  position: relative;
-  top: 3px;
 }
+<<<<<<< HEAD
 /* line 27, assets\less\gnb.less */
 .top-bar .t_right .cart button {
   background-color: #8fd614;
   border: none;
 }
 /* line 32, assets\less\gnb.less */
+=======
+/* line 31, assets\less\gnb.less */
+>>>>>>> eeeacdfa614afcfe5f64904c66f42899681367d1
 .top-bar .t_right .user {
   width: 25px;
   height: 25px;
-  position: relative;
-  top: 3px;
 }
+<<<<<<< HEAD
 /* line 37, assets\less\gnb.less */
 .top-bar .t_right .user button {
   background-color: #8fd614;
   border: none;
 }
 /* line 42, assets\less\gnb.less */
+=======
+/* line 35, assets\less\gnb.less */
+.top-bar .t_right .user button img {
+  width: 90%;
+}
+/* line 40, assets\less\gnb.less */
+>>>>>>> eeeacdfa614afcfe5f64904c66f42899681367d1
 .top-bar .t_right .r_search {
   width: 150px;
   white-space: normal;
 }
+<<<<<<< HEAD
 /* line 45, assets\less\gnb.less */
+=======
+/* line 43, assets\less\gnb.less */
+>>>>>>> eeeacdfa614afcfe5f64904c66f42899681367d1
 .top-bar .t_right .r_search .search {
   width: 150px;
   height: 30px;
@@ -163,46 +181,149 @@ img {
   background-size: 15px 15px;
   background-position: 5px 8px;
 }
+<<<<<<< HEAD
+=======
+/* line 57, assets\less\gnb.less */
+.top-bar .t_right .navi {
+  position: relative;
+  bottom: -3px;
+}
+>>>>>>> eeeacdfa614afcfe5f64904c66f42899681367d1
 /* line 60, assets\less\gnb.less */
 .top-bar .t_right .navi span {
   display: block;
   width: 28px;
   height: 4px;
   background-color: #000;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
 }
+/* line 85, assets\less\gnb.less */
+.top-bar .t_right .r_slide {
+  background-color: #304021;
+  width: 320px;
+  height: 811px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  z-index: 200;
+}
+/* line 94, assets\less\gnb.less */
+.top-bar .t_right .r_slide .r_menu {
+  height: 150px;
+  width: 160px;
+  position: relative;
+  border: 1px #FFF solid;
+}
+/* line 100, assets\less\gnb.less */
+.top-bar .t_right .r_slide .r_menu > a {
+  display: inline-block;
+  position: relative;
+  top: 65px;
+  left: 45px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+/* line 108, assets\less\gnb.less */
+.top-bar .t_right .r_slide .b_menu {
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 170px;
+  border: 1px #FFF solid;
+}
+/* line 116, assets\less\gnb.less */
+.top-bar .t_right .r_slide .b_menu li {
+  height: 25px;
+  line-height: 25px;
+}
+/* line 119, assets\less\gnb.less */
+.top-bar .t_right .r_slide .b_menu li a {
+  padding: 10px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+<<<<<<< HEAD
 /* line 71, assets\less\gnb.less */
+=======
+/* line 131, assets\less\gnb.less */
+>>>>>>> eeeacdfa614afcfe5f64904c66f42899681367d1
 .menu-bar {
   height: 70px;
   width: 100%;
   background: #304021;
-}
-/* line 75, assets\less\gnb.less */
-.menu-bar .slide {
-  overflow: hidden;
-  background-color: rgba(44, 239, 67, 0.3);
   position: relative;
-  z-index: 3;
 }
+<<<<<<< HEAD
+/* line 75, assets\less\gnb.less */
+=======
+/* line 136, assets\less\gnb.less */
+>>>>>>> eeeacdfa614afcfe5f64904c66f42899681367d1
+.menu-bar .slide {
+  background-color: rgba(44, 239, 67, 0.3);
+}
+<<<<<<< HEAD
 /* line 90, assets\less\gnb.less */
+=======
+/* line 139, assets\less\gnb.less */
+>>>>>>> eeeacdfa614afcfe5f64904c66f42899681367d1
 .menu-bar ul {
   width: 1250px;
   margin: 0 auto;
 }
+<<<<<<< HEAD
 /* line 93, assets\less\gnb.less */
+=======
+/* line 142, assets\less\gnb.less */
+>>>>>>> eeeacdfa614afcfe5f64904c66f42899681367d1
 .menu-bar ul .menu {
   width: 250px;
   height: 70px;
   float: left;
   text-align: center;
   line-height: 70px;
+  position: relative;
 }
+<<<<<<< HEAD
 /* line 99, assets\less\gnb.less */
 .menu-bar ul .menu li {
-  width: 250px;
-  height: 70px;
-  font-size: 14px;
+=======
+/* line 149, assets\less\gnb.less */
+.menu-bar ul .menu .bar {
+  width: 180px;
+  height: 3px;
+  display: inline-block;
+  position: absolute;
+  top: 65px;
+  left: -200px;
+  background-color: #FFF;
+  display: none;
 }
+/* line 159, assets\less\gnb.less */
+.menu-bar ul .menu > a:hover {
+  color: #8fd614;
+  transition: 0.5s;
+}
+/* line 164, assets\less\gnb.less */
+.menu-bar ul div {
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  height: 250px;
+  display: none;
+  transition: 1s;
+}
+/* line 171, assets\less\gnb.less */
+.menu-bar ul div li {
+>>>>>>> eeeacdfa614afcfe5f64904c66f42899681367d1
+  width: 250px;
+  height: 65px;
+  font-size: 16px;
+  position: relative;
+  z-index: 100;
+}
+<<<<<<< HEAD
 /* line 103, assets\less\gnb.less */
 .menu-bar ul .menu li a {
   font-size: 14px;
@@ -213,6 +334,37 @@ img {
   text-transform: uppercase;
   font-size: 18px;
 }
+=======
+/* line 179, assets\less\gnb.less */
+.menu-bar ul div li a {
+  font-size: 14px;
+}
+/* line 181, assets\less\gnb.less */
+.menu-bar ul div li a:hover {
+  color: #8fd614;
+  transition: 0.5s;
+}
+/* line 188, assets\less\gnb.less */
+.menu-bar ul a {
+  color: #FDF5E6;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+@media screen and (max-width: 479px) {
+  /* line 198, assets\less\gnb.less */
+  .top-bar {
+    background-color: #FFF;
+  }
+  /* line 200, assets\less\gnb.less */
+  .top-bar .logo {
+    max-width: 50%;
+  }
+  /* line 204, assets\less\gnb.less */
+  .t_right {
+    display: none;
+  }
+}
+>>>>>>> eeeacdfa614afcfe5f64904c66f42899681367d1
 @media screen and (max-width: 750px) {
   /* line 3, assets\less\gnb_re.less */
   .menu-bar {
@@ -335,8 +487,10 @@ img {
 .section .main .intro img {
   width: 100%;
   transition: 1s;
+  position: relative;
+  z-index: 0;
 }
-/* line 55, assets\less\style.less */
+/* line 58, assets\less\style.less */
 .section .main .intro:before {
   content: "";
   position: absolute;
@@ -347,12 +501,12 @@ img {
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 65, assets\less\style.less */
+/* line 69, assets\less\style.less */
 .section .main .intro:hover img {
   filter: grayscale(80%);
   transform: scale(1.2) rotate(3deg);
 }
-/* line 70, assets\less\style.less */
+/* line 74, assets\less\style.less */
 .section .main p {
   width: 400px;
   height: 200px;
@@ -369,111 +523,111 @@ img {
   color: #FFF;
   overflow: hidden;
 }
-/* line 85, assets\less\style.less */
+/* line 89, assets\less\style.less */
 .section .main p:before {
   content: "";
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
-/* line 91, assets\less\style.less */
+/* line 95, assets\less\style.less */
 .section .main p span {
   display: inline-block;
   font-size: 48px;
   line-height: 48px;
   vertical-align: middle;
 }
-/* line 100, assets\less\style.less */
+/* line 104, assets\less\style.less */
 .section .second ul {
   height: 300px;
   overflow: hidden;
   margin-top: 20px;
 }
-/* line 106, assets\less\style.less */
+/* line 110, assets\less\style.less */
 .section .second li[class^="s-sub"] {
   width: 25%;
   height: 100%;
   float: left;
   text-align: center;
 }
-/* line 111, assets\less\style.less */
+/* line 115, assets\less\style.less */
 .section .second li[class^="s-sub"] img {
   width: 90%;
   height: 90%;
 }
-/* line 117, assets\less\style.less */
+/* line 121, assets\less\style.less */
 .section .second span[class^="line_"]:nth-child(odd) {
   background-color: #f00;
   height: 5px;
   display: inline-block;
 }
-/* line 124, assets\less\style.less */
+/* line 128, assets\less\style.less */
 .section .second span[class^="line_"]:nth-child(even) {
   background-color: #f00;
   width: 5px;
   display: inline-block;
 }
-/* line 130, assets\less\style.less */
+/* line 134, assets\less\style.less */
 .section .second li:hover .line_f {
   transition: 0.5s;
   width: 90%;
   background-color: tomato;
 }
-/* line 135, assets\less\style.less */
+/* line 139, assets\less\style.less */
 .section .second li:hover .line_t {
   transition: 0.5s;
   transition-delay: 0.5s;
   height: 90%;
   background-color: tomato;
 }
-/* line 141, assets\less\style.less */
+/* line 145, assets\less\style.less */
 .section .second li:hover .line_th {
   transition: 0.5s;
   transition-delay: 1s;
   width: 90%;
   background-color: tomato;
 }
-/* line 147, assets\less\style.less */
+/* line 151, assets\less\style.less */
 .section .second li:hover .line_fo {
   transition: 0.5s;
   transition-delay: 1.5s;
   height: 90%;
   background-color: tomato;
 }
-/* line 154, assets\less\style.less */
+/* line 158, assets\less\style.less */
 .section .second .line_f {
   position: absolute;
   top: 1px;
   left: 24px;
   width: 0%;
 }
-/* line 160, assets\less\style.less */
+/* line 164, assets\less\style.less */
 .section .second .line_t {
   position: absolute;
   right: 24px;
   top: 0;
   height: 0%;
 }
-/* line 166, assets\less\style.less */
+/* line 170, assets\less\style.less */
 .section .second .line_th {
   position: absolute;
   right: 26px;
   bottom: 28px;
   width: 0%;
 }
-/* line 172, assets\less\style.less */
+/* line 176, assets\less\style.less */
 .section .second .line_fo {
   position: absolute;
   bottom: 28px;
   left: 20px;
   height: 0%;
 }
-/* line 178, assets\less\style.less */
+/* line 182, assets\less\style.less */
 .section .second .s-sub1 {
   position: relative;
   overflow: hidden;
 }
-/* line 182, assets\less\style.less */
+/* line 186, assets\less\style.less */
 .section .second .s-sub1 .s_ve {
   display: inline-block;
   color: #FFF;
@@ -483,16 +637,16 @@ img {
   left: 30%;
   text-transform: uppercase;
 }
-/* line 192, assets\less\style.less */
+/* line 196, assets\less\style.less */
 .section .second li:hover img {
   transform: scale(1.1);
   transition: 1s;
 }
-/* line 197, assets\less\style.less */
+/* line 201, assets\less\style.less */
 .section .second .s-sub2 {
   position: relative;
 }
-/* line 199, assets\less\style.less */
+/* line 203, assets\less\style.less */
 .section .second .s-sub2 .s_fr {
   display: inline-block;
   color: #FFF;
@@ -502,11 +656,11 @@ img {
   top: 40%;
   left: 40%;
 }
-/* line 209, assets\less\style.less */
+/* line 213, assets\less\style.less */
 .section .second .s-sub3 {
   position: relative;
 }
-/* line 211, assets\less\style.less */
+/* line 215, assets\less\style.less */
 .section .second .s-sub3 .s_si {
   display: inline-block;
   color: #FFF;
@@ -516,11 +670,11 @@ img {
   top: 40%;
   left: 34%;
 }
-/* line 221, assets\less\style.less */
+/* line 225, assets\less\style.less */
 .section .second .s-sub4 {
   position: relative;
 }
-/* line 223, assets\less\style.less */
+/* line 227, assets\less\style.less */
 .section .second .s-sub4 .s_pr {
   display: inline-block;
   color: #FFF;
@@ -530,34 +684,34 @@ img {
   top: 40%;
   left: 34%;
 }
-/* line 235, assets\less\style.less */
+/* line 239, assets\less\style.less */
 .section .third ul {
   background-color: #000;
   height: 508px;
 }
-/* line 238, assets\less\style.less */
+/* line 242, assets\less\style.less */
 .section .third ul li {
   width: 40%;
   float: left;
 }
-/* line 241, assets\less\style.less */
+/* line 245, assets\less\style.less */
 .section .third ul li img {
   width: 100%;
   float: left;
 }
-/* line 245, assets\less\style.less */
+/* line 249, assets\less\style.less */
 .section .third ul li p {
   position: relative;
   left: 200px;
   top: 100px;
 }
-/* line 250, assets\less\style.less */
+/* line 254, assets\less\style.less */
 .section .third ul li p:first-child {
   font-size: 60px;
   text-align: center;
   color: #FFF;
 }
-/* line 255, assets\less\style.less */
+/* line 259, assets\less\style.less */
 .section .third ul li p:last-child {
   font-size: 24px;
   text-align: center;
@@ -565,12 +719,12 @@ img {
   display: inline-block;
   margin-top: 30px;
 }
-/* line 265, assets\less\style.less */
+/* line 269, assets\less\style.less */
 .section .farm-info {
   height: 700px;
   position: relative;
 }
-/* line 269, assets\less\style.less */
+/* line 273, assets\less\style.less */
 .section .farm-info .box {
   background-color: #4A210B;
   width: 250px;
@@ -579,40 +733,40 @@ img {
   top: 20%;
   left: 20%;
 }
-/* line 276, assets\less\style.less */
+/* line 280, assets\less\style.less */
 .section .farm-info .box .fi_top {
   width: 100%;
 }
-/* line 278, assets\less\style.less */
+/* line 282, assets\less\style.less */
 .section .farm-info .box .fi_top img {
   width: 160%;
   position: absolute;
   top: -150px;
   left: -245px;
 }
-/* line 285, assets\less\style.less */
+/* line 289, assets\less\style.less */
 .section .farm-info .box .fi_left {
   width: 100%;
 }
-/* line 287, assets\less\style.less */
+/* line 291, assets\less\style.less */
 .section .farm-info .box .fi_left img {
   width: 170%;
   position: absolute;
   top: 165px;
   left: -210px;
 }
-/* line 294, assets\less\style.less */
+/* line 298, assets\less\style.less */
 .section .farm-info .box .fi_right {
   width: 100%;
 }
-/* line 296, assets\less\style.less */
+/* line 300, assets\less\style.less */
 .section .farm-info .box .fi_right img {
   width: 150%;
   position: absolute;
   top: -55px;
   left: 170px;
 }
-/* line 304, assets\less\style.less */
+/* line 308, assets\less\style.less */
 .section .farm-info p {
   display: inline-block;
   width: 700px;
@@ -623,29 +777,29 @@ img {
   font-size: 12px;
   line-height: 200%;
 }
-/* line 316, assets\less\style.less */
+/* line 320, assets\less\style.less */
 .section .pro-info .title {
   text-align: center;
   position: relative;
   margin-bottom: 30px;
 }
-/* line 320, assets\less\style.less */
+/* line 324, assets\less\style.less */
 .section .pro-info .title h4 {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
   margin-top: 50px;
 }
-/* line 326, assets\less\style.less */
+/* line 330, assets\less\style.less */
 .section .pro-info .title span {
   display: block;
 }
-/* line 329, assets\less\style.less */
+/* line 333, assets\less\style.less */
 .section .pro-info .title img {
   padding: 10px;
   width: 20px;
 }
-/* line 333, assets\less\style.less */
+/* line 337, assets\less\style.less */
 .section .pro-info .title span.line:before {
   content: "";
   display: block;
@@ -656,7 +810,7 @@ img {
   top: 74px;
   left: 815px;
 }
-/* line 343, assets\less\style.less */
+/* line 347, assets\less\style.less */
 .section .pro-info .title span.line:after {
   content: "";
   display: block;
@@ -667,7 +821,7 @@ img {
   top: 74px;
   left: 985px;
 }
-/* line 354, assets\less\style.less */
+/* line 358, assets\less\style.less */
 .section .pro-info .pi {
   position: relative;
   background-image: url('../images/main/pro-info1.jpg');
@@ -675,24 +829,24 @@ img {
   background-size: 50%;
   height: 400px;
 }
-/* line 360, assets\less\style.less */
+/* line 364, assets\less\style.less */
 .section .pro-info .pi ul {
   width: 100%;
   height: 100%;
 }
-/* line 363, assets\less\style.less */
+/* line 367, assets\less\style.less */
 .section .pro-info .pi ul li {
   width: 25%;
   float: left;
 }
-/* line 367, assets\less\style.less */
+/* line 371, assets\less\style.less */
 .section .pro-info .pi ul .ve {
   height: 400px;
   background-color: rgba(44, 239, 67, 0.3);
   position: absolute;
   top: 0px;
 }
-/* line 373, assets\less\style.less */
+/* line 377, assets\less\style.less */
 .section .pro-info .pi ul .fr {
   height: 400px;
   background-color: rgba(255, 245, 104, 0.3);
@@ -700,7 +854,7 @@ img {
   top: 0px;
   left: 25%;
 }
-/* line 380, assets\less\style.less */
+/* line 384, assets\less\style.less */
 .section .pro-info .pi ul .si {
   height: 400px;
   background-color: rgba(244, 111, 38, 0.3);
@@ -708,7 +862,7 @@ img {
   top: 0px;
   left: 50%;
 }
-/* line 387, assets\less\style.less */
+/* line 391, assets\less\style.less */
 .section .pro-info .pi ul .pr {
   height: 400px;
   background-color: rgba(137, 44, 225, 0.3);
@@ -716,35 +870,35 @@ img {
   top: 0px;
   left: 75%;
 }
-/* line 396, assets\less\style.less */
+/* line 400, assets\less\style.less */
 .section .pro-info .pro-sub {
   width: 100%;
   height: 700px;
   overflow: hidden;
 }
-/* line 400, assets\less\style.less */
+/* line 404, assets\less\style.less */
 .section .pro-info .pro-sub .ps-top {
   width: 800px;
 }
-/* line 402, assets\less\style.less */
+/* line 406, assets\less\style.less */
 .section .pro-info .pro-sub .ps-top img {
   width: 100%;
   margin: 30px 30px 30px 100px;
   float: left;
 }
-/* line 411, assets\less\style.less */
+/* line 415, assets\less\style.less */
 .section .pro-info .pro-sub .ps-sub ul li {
   width: 15%;
   float: left;
   margin: 20px 10px 0 0;
   padding: 10px;
 }
-/* line 416, assets\less\style.less */
+/* line 420, assets\less\style.less */
 .section .pro-info .pro-sub .ps-sub ul li img {
   width: 100%;
   height: 200px;
 }
-/* line 420, assets\less\style.less */
+/* line 424, assets\less\style.less */
 .section .pro-info .pro-sub .ps-sub ul li span {
   display: block;
   width: 300px;
@@ -752,25 +906,25 @@ img {
   clear: left;
   text-transform: capitalize;
 }
-/* line 433, assets\less\style.less */
+/* line 437, assets\less\style.less */
 .section .recipe {
   width: 100%;
   height: 100%;
   overflow: hidden;
   top: 50px;
 }
-/* line 438, assets\less\style.less */
+/* line 442, assets\less\style.less */
 .section .recipe .rec_box {
   margin: auto;
   overflow: hidden;
 }
-/* line 441, assets\less\style.less */
+/* line 445, assets\less\style.less */
 .section .recipe .rec_box .rb_left {
   width: 30%;
   height: 28%;
   margin-left: 40px;
 }
-/* line 445, assets\less\style.less */
+/* line 449, assets\less\style.less */
 .section .recipe .rec_box .rb_left img {
   width: 100%;
   float: left;
@@ -778,7 +932,7 @@ img {
   position: relative;
   top: -30px;
 }
-/* line 454, assets\less\style.less */
+/* line 458, assets\less\style.less */
 .section .recipe .rec_box .rb_right li {
   width: 13.2%;
   height: 400px;
@@ -790,13 +944,13 @@ img {
   margin-right: 10px;
   z-index: 1;
 }
-/* line 464, assets\less\style.less */
+/* line 468, assets\less\style.less */
 .section .recipe .rec_box .rb_right li img {
   position: absolute;
   top: -10px;
   left: -225px;
 }
-/* line 471, assets\less\style.less */
+/* line 475, assets\less\style.less */
 .section .recipe .rec_box .rb_sub {
   width: 50%;
   height: 380px;
@@ -806,7 +960,7 @@ img {
   right: -46%;
   z-index: 0;
 }
-/* line 484, assets\less\style.less */
+/* line 488, assets\less\style.less */
 .section .com {
   overflow: hidden;
   background-image: url('../images/main/com_re.jpg');
@@ -815,7 +969,7 @@ img {
   background-attachment: fixed;
   position: relative;
 }
-/* line 491, assets\less\style.less */
+/* line 495, assets\less\style.less */
 .section .com h4 {
   text-transform: uppercase;
   font-size: 24px;
@@ -824,18 +978,18 @@ img {
   top: 150px;
   left: 370px;
 }
-/* line 499, assets\less\style.less */
+/* line 503, assets\less\style.less */
 .section .com .com_sub {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 503, assets\less\style.less */
+/* line 507, assets\less\style.less */
 .section .com .com_sub ul {
   width: 1200px;
   margin: auto;
 }
-/* line 507, assets\less\style.less */
+/* line 511, assets\less\style.less */
 .section .com .com_sub li {
   width: 30%;
   height: 100%;
@@ -843,7 +997,7 @@ img {
   background-color: rgba(0, 0, 0, 0.1);
   margin: 200px 10px;
 }
-/* line 513, assets\less\style.less */
+/* line 517, assets\less\style.less */
 .section .com .com_sub li p {
   color: #FFF;
   font-size: 14px;
@@ -851,7 +1005,7 @@ img {
   margin: auto;
   width: 300px;
 }
-/* line 520, assets\less\style.less */
+/* line 524, assets\less\style.less */
 .section .com .com_sub li span[class^="cs_face"] {
   display: block;
   width: 80px;
@@ -862,27 +1016,27 @@ img {
   left: 5%;
   margin: 10px;
 }
-/* line 530, assets\less\style.less */
+/* line 534, assets\less\style.less */
 .section .com .com_sub li .cs_facel {
   background-image: url('../images/main/facel.jpg');
   background-repeat: no-repeat;
   background-size: 200px 200px;
   background-position: -106px -4px;
 }
-/* line 536, assets\less\style.less */
+/* line 540, assets\less\style.less */
 .section .com .com_sub li .cs_facem {
   background-image: url('../images/main/facem.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 541, assets\less\style.less */
+/* line 545, assets\less\style.less */
 .section .com .com_sub li .cs_faceb {
   background-image: url('../images/main/faceb.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -19px 0px;
 }
-/* line 547, assets\less\style.less */
+/* line 551, assets\less\style.less */
 .section .com .com_sub li .cs_name {
   color: #FFF;
   width: 30px;
@@ -893,7 +1047,7 @@ img {
   left: 125px;
   text-transform: capitalize;
 }
-/* line 558, assets\less\style.less */
+/* line 562, assets\less\style.less */
 .section .com .com_sub p:before {
   content: "";
   width: 20px;
@@ -904,35 +1058,35 @@ img {
   background-size: cover;
   margin: 10px 10px 0 10px;
 }
-/* line 571, assets\less\style.less */
+/* line 575, assets\less\style.less */
 .section .blog {
   background-image: url('../images/main/blog_1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
 }
-/* line 576, assets\less\style.less */
+/* line 580, assets\less\style.less */
 .section .blog ul {
   width: 1100px;
   margin: auto;
 }
-/* line 580, assets\less\style.less */
+/* line 584, assets\less\style.less */
 .section .blog ul li {
   width: 31.5%;
   float: left;
   margin-left: 18px;
 }
-/* line 584, assets\less\style.less */
+/* line 588, assets\less\style.less */
 .section .blog ul li img {
   width: 100%;
   height: 250px;
 }
-/* line 588, assets\less\style.less */
+/* line 592, assets\less\style.less */
 .section .blog ul li p {
   width: 300px;
   margin-top: 5px;
 }
-/* line 592, assets\less\style.less */
+/* line 596, assets\less\style.less */
 .section .blog ul li .date {
   font-weight: bold;
   color: grey;
@@ -940,19 +1094,19 @@ img {
   margin: 20px 0;
   text-transform: capitalize;
 }
-/* line 599, assets\less\style.less */
+/* line 603, assets\less\style.less */
 .section .blog ul li .b_title {
   font-weight: bold;
   margin: 10px 0;
   font-size: 20px;
 }
-/* line 604, assets\less\style.less */
+/* line 608, assets\less\style.less */
 .section .blog ul li .read {
   font-weight: bold;
   color: #546A79;
   margin-top: 10px;
 }
-/* line 609, assets\less\style.less */
+/* line 613, assets\less\style.less */
 .section .blog ul li p.date:after {
   content: "";
   width: 20px;
@@ -964,7 +1118,7 @@ img {
   background-image: url('../images/footer/chat.png');
   background-repeat: no-repeat;
 }
-/* line 620, assets\less\style.less */
+/* line 624, assets\less\style.less */
 .section .blog ul li p.date:before {
   content: "5";
   width: 20px;
@@ -974,7 +1128,7 @@ img {
   top: -2px;
   right: 8px;
 }
-/* line 630, assets\less\style.less */
+/* line 634, assets\less\style.less */
 .section .blog ul li p.read:after {
   content: "";
   width: 15px;

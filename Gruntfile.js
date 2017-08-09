@@ -50,11 +50,11 @@ module.exports = function(grunt) {
     includes: {
         files:{
             cwd: 'html', //includes를 시킬 파일이 있는 곳
-            src: ['include/*.html'], // Source files
-            dest: 'farm_dist', // Destination directory
+            src: ['*.html'], // Source files
+            dest: 'farm_dest', // Destination directory
             options: {
               flatten: true,
-              includePath:'html/include'
+              includePath:'html'
             }
         }
       }
