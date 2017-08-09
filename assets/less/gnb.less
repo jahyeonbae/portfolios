@@ -24,12 +24,20 @@
             height: 25px;
             position: relative;
             top: 3px;
+            button{
+              background-color: @color-main;
+              border:none;
+            }
         }
         .user{
             width: 25px;
             height: 25px;
             position:relative;
             top: 3px;
+            button{
+              background-color: @color-main;
+              border: none;
+            }
         }
         .r_search{
             width: 150px;
@@ -56,25 +64,8 @@
                 background-color: #000;
                 margin-bottom: 3px;
             }
-            .line-f{
-                // position: absolute;
-                // top: 0;
-                // left: 0;
-                // animation:line, 1s;
-            }
-            .line-s{
-                // position: absolute;
-                // top: 10px;
-                // left: 0;
-            }
-            .line-t{
-                // position: absolute;
-                // top: 20px;
-                // left: 0;
-            }
         }
     }
-
 } // topbar
 
 .menu-bar{
@@ -121,16 +112,3 @@
           }
        }
 } //menubar
-
-@media screen and (max-width:479px){
-  .top-bar{
-      background-color: #FFF;
-      .logo{
-          max-width: 50%;
-      }
-  }
-  .t_right{
-      display:none;
-  }
-
-}

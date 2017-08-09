@@ -1,20 +1,16 @@
 $(function(){
 
-<<<<<<< HEAD
       $('.menu').mouseover(function(){
-         $('.slide').slideDown();
-=======
-      $('.slide').mouseover(function(){
-         $('.slide').css('');
-         console.log('agaeh')
->>>>>>> 91c6e36ca2e41c1f80df2ac6fdb6e0fffcee66fc
-     });
-     console.log('agrah')
+         $('.slide').stop().slideDown();
+         console.log('ahajear')
+      })
 
-     $('.navi').mouseover(function(){
-         $('.navi>span').animate('transform-origin','50%');
-         console.log('agaha')
-     })
+});
+      // $('.slide').mouseover(function(){
+      //    $('.slide').css('');
+      //    console.log('agaeh')
 
 
-})
+    //  $('.navi').mouseover(function(){
+    //      $('.navi>span').animate('transform-origin','50%');
+    //  })

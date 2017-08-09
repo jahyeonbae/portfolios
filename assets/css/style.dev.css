@@ -127,19 +127,29 @@ img {
   position: relative;
   top: 3px;
 }
-/* line 28, assets\less\gnb.less */
+/* line 27, assets\less\gnb.less */
+.top-bar .t_right .cart button {
+  background-color: #8fd614;
+  border: none;
+}
+/* line 32, assets\less\gnb.less */
 .top-bar .t_right .user {
   width: 25px;
   height: 25px;
   position: relative;
   top: 3px;
 }
-/* line 34, assets\less\gnb.less */
+/* line 37, assets\less\gnb.less */
+.top-bar .t_right .user button {
+  background-color: #8fd614;
+  border: none;
+}
+/* line 42, assets\less\gnb.less */
 .top-bar .t_right .r_search {
   width: 150px;
   white-space: normal;
 }
-/* line 37, assets\less\gnb.less */
+/* line 45, assets\less\gnb.less */
 .top-bar .t_right .r_search .search {
   width: 150px;
   height: 30px;
@@ -153,7 +163,7 @@ img {
   background-size: 15px 15px;
   background-position: 5px 8px;
 }
-/* line 52, assets\less\gnb.less */
+/* line 60, assets\less\gnb.less */
 .top-bar .t_right .navi span {
   display: block;
   width: 28px;
@@ -161,25 +171,25 @@ img {
   background-color: #000;
   margin-bottom: 3px;
 }
-/* line 80, assets\less\gnb.less */
+/* line 71, assets\less\gnb.less */
 .menu-bar {
   height: 70px;
   width: 100%;
   background: #304021;
 }
-/* line 84, assets\less\gnb.less */
+/* line 75, assets\less\gnb.less */
 .menu-bar .slide {
   overflow: hidden;
   background-color: rgba(44, 239, 67, 0.3);
   position: relative;
   z-index: 3;
 }
-/* line 99, assets\less\gnb.less */
+/* line 90, assets\less\gnb.less */
 .menu-bar ul {
   width: 1250px;
   margin: 0 auto;
 }
-/* line 102, assets\less\gnb.less */
+/* line 93, assets\less\gnb.less */
 .menu-bar ul .menu {
   width: 250px;
   height: 70px;
@@ -187,35 +197,21 @@ img {
   text-align: center;
   line-height: 70px;
 }
-/* line 108, assets\less\gnb.less */
+/* line 99, assets\less\gnb.less */
 .menu-bar ul .menu li {
   width: 250px;
   height: 70px;
   font-size: 14px;
 }
-/* line 112, assets\less\gnb.less */
+/* line 103, assets\less\gnb.less */
 .menu-bar ul .menu li a {
   font-size: 14px;
 }
-/* line 116, assets\less\gnb.less */
+/* line 107, assets\less\gnb.less */
 .menu-bar ul .menu a {
   color: #FFF;
   text-transform: uppercase;
   font-size: 18px;
-}
-@media screen and (max-width: 479px) {
-  /* line 126, assets\less\gnb.less */
-  .top-bar {
-    background-color: #FFF;
-  }
-  /* line 128, assets\less\gnb.less */
-  .top-bar .logo {
-    max-width: 50%;
-  }
-  /* line 132, assets\less\gnb.less */
-  .t_right {
-    display: none;
-  }
 }
 @media screen and (max-width: 750px) {
   /* line 3, assets\less\gnb_re.less */
