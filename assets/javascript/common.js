@@ -20,7 +20,11 @@ $(function(){
       $('.navi').click(function(){
         $(this).next('div').stop().slideDown()
        })
-      $('.')
+      $('.r_slide').click(function(){
+        $(this).stop().slideUp()
+      })
+
+
 
 
 

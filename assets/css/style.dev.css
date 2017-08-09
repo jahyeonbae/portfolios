@@ -483,7 +483,7 @@ img {
 .section .second ul {
   height: 300px;
   overflow: hidden;
-  margin-top: 20px;
+  margin-top: 13px;
 }
 /* line 110, assets\less\style.less */
 .section .second li[class^="s-sub"] {
@@ -499,77 +499,75 @@ img {
 }
 /* line 121, assets\less\style.less */
 .section .second span[class^="line_"]:nth-child(odd) {
-  background-color: #f00;
   height: 5px;
   display: inline-block;
 }
-/* line 128, assets\less\style.less */
+/* line 127, assets\less\style.less */
 .section .second span[class^="line_"]:nth-child(even) {
-  background-color: #f00;
   width: 5px;
   display: inline-block;
 }
-/* line 134, assets\less\style.less */
+/* line 132, assets\less\style.less */
 .section .second li:hover .line_f {
   transition: 0.5s;
-  width: 90%;
+  width: 44%;
   background-color: tomato;
 }
-/* line 139, assets\less\style.less */
+/* line 137, assets\less\style.less */
 .section .second li:hover .line_t {
   transition: 0.5s;
   transition-delay: 0.5s;
-  height: 90%;
+  height: 18%;
   background-color: tomato;
 }
-/* line 145, assets\less\style.less */
+/* line 143, assets\less\style.less */
 .section .second li:hover .line_th {
   transition: 0.5s;
   transition-delay: 1s;
-  width: 90%;
+  width: 44%;
   background-color: tomato;
 }
-/* line 151, assets\less\style.less */
+/* line 149, assets\less\style.less */
 .section .second li:hover .line_fo {
   transition: 0.5s;
   transition-delay: 1.5s;
-  height: 90%;
+  height: 18%;
   background-color: tomato;
 }
-/* line 158, assets\less\style.less */
+/* line 156, assets\less\style.less */
 .section .second .line_f {
   position: absolute;
-  top: 1px;
-  left: 24px;
+  top: 115px;
+  left: 114px;
   width: 0%;
 }
-/* line 164, assets\less\style.less */
+/* line 162, assets\less\style.less */
 .section .second .line_t {
   position: absolute;
-  right: 24px;
-  top: 0;
+  right: 94px;
+  top: 115px;
   height: 0%;
 }
-/* line 170, assets\less\style.less */
+/* line 168, assets\less\style.less */
 .section .second .line_th {
   position: absolute;
-  right: 26px;
-  bottom: 28px;
+  right: 98px;
+  bottom: 131px;
   width: 0%;
 }
-/* line 176, assets\less\style.less */
+/* line 174, assets\less\style.less */
 .section .second .line_fo {
   position: absolute;
-  bottom: 28px;
-  left: 20px;
+  bottom: 131px;
+  left: 110px;
   height: 0%;
 }
-/* line 182, assets\less\style.less */
+/* line 180, assets\less\style.less */
 .section .second .s-sub1 {
   position: relative;
   overflow: hidden;
 }
-/* line 186, assets\less\style.less */
+/* line 183, assets\less\style.less */
 .section .second .s-sub1 .s_ve {
   display: inline-block;
   color: #FFF;
@@ -579,16 +577,16 @@ img {
   left: 30%;
   text-transform: uppercase;
 }
-/* line 196, assets\less\style.less */
+/* line 193, assets\less\style.less */
 .section .second li:hover img {
   transform: scale(1.1);
   transition: 1s;
 }
-/* line 201, assets\less\style.less */
+/* line 198, assets\less\style.less */
 .section .second .s-sub2 {
   position: relative;
 }
-/* line 203, assets\less\style.less */
+/* line 200, assets\less\style.less */
 .section .second .s-sub2 .s_fr {
   display: inline-block;
   color: #FFF;
@@ -598,11 +596,11 @@ img {
   top: 40%;
   left: 40%;
 }
-/* line 213, assets\less\style.less */
+/* line 210, assets\less\style.less */
 .section .second .s-sub3 {
   position: relative;
 }
-/* line 215, assets\less\style.less */
+/* line 212, assets\less\style.less */
 .section .second .s-sub3 .s_si {
   display: inline-block;
   color: #FFF;
@@ -612,11 +610,11 @@ img {
   top: 40%;
   left: 34%;
 }
-/* line 225, assets\less\style.less */
+/* line 222, assets\less\style.less */
 .section .second .s-sub4 {
   position: relative;
 }
-/* line 227, assets\less\style.less */
+/* line 224, assets\less\style.less */
 .section .second .s-sub4 .s_pr {
   display: inline-block;
   color: #FFF;
@@ -626,34 +624,34 @@ img {
   top: 40%;
   left: 34%;
 }
-/* line 239, assets\less\style.less */
+/* line 236, assets\less\style.less */
 .section .third ul {
   background-color: #000;
-  height: 508px;
+  height: 408px;
 }
-/* line 242, assets\less\style.less */
+/* line 239, assets\less\style.less */
 .section .third ul li {
   width: 40%;
   float: left;
 }
-/* line 245, assets\less\style.less */
+/* line 242, assets\less\style.less */
 .section .third ul li img {
   width: 100%;
   float: left;
 }
-/* line 249, assets\less\style.less */
+/* line 246, assets\less\style.less */
 .section .third ul li p {
   position: relative;
   left: 200px;
   top: 100px;
 }
-/* line 254, assets\less\style.less */
+/* line 251, assets\less\style.less */
 .section .third ul li p:first-child {
   font-size: 60px;
   text-align: center;
   color: #FFF;
 }
-/* line 259, assets\less\style.less */
+/* line 256, assets\less\style.less */
 .section .third ul li p:last-child {
   font-size: 24px;
   text-align: center;
@@ -661,12 +659,12 @@ img {
   display: inline-block;
   margin-top: 30px;
 }
-/* line 269, assets\less\style.less */
+/* line 266, assets\less\style.less */
 .section .farm-info {
   height: 700px;
   position: relative;
 }
-/* line 273, assets\less\style.less */
+/* line 270, assets\less\style.less */
 .section .farm-info .box {
   background-color: #4A210B;
   width: 250px;
@@ -675,40 +673,40 @@ img {
   top: 20%;
   left: 20%;
 }
-/* line 280, assets\less\style.less */
+/* line 277, assets\less\style.less */
 .section .farm-info .box .fi_top {
   width: 100%;
 }
-/* line 282, assets\less\style.less */
+/* line 279, assets\less\style.less */
 .section .farm-info .box .fi_top img {
   width: 160%;
   position: absolute;
   top: -150px;
   left: -245px;
 }
-/* line 289, assets\less\style.less */
+/* line 286, assets\less\style.less */
 .section .farm-info .box .fi_left {
   width: 100%;
 }
-/* line 291, assets\less\style.less */
+/* line 288, assets\less\style.less */
 .section .farm-info .box .fi_left img {
   width: 170%;
   position: absolute;
   top: 165px;
   left: -210px;
 }
-/* line 298, assets\less\style.less */
+/* line 295, assets\less\style.less */
 .section .farm-info .box .fi_right {
   width: 100%;
 }
-/* line 300, assets\less\style.less */
+/* line 297, assets\less\style.less */
 .section .farm-info .box .fi_right img {
   width: 150%;
   position: absolute;
   top: -55px;
   left: 170px;
 }
-/* line 308, assets\less\style.less */
+/* line 305, assets\less\style.less */
 .section .farm-info p {
   display: inline-block;
   width: 700px;
@@ -719,29 +717,29 @@ img {
   font-size: 12px;
   line-height: 200%;
 }
-/* line 320, assets\less\style.less */
+/* line 317, assets\less\style.less */
 .section .pro-info .title {
   text-align: center;
   position: relative;
   margin-bottom: 30px;
 }
-/* line 324, assets\less\style.less */
+/* line 321, assets\less\style.less */
 .section .pro-info .title h4 {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
   margin-top: 50px;
 }
-/* line 330, assets\less\style.less */
+/* line 327, assets\less\style.less */
 .section .pro-info .title span {
   display: block;
 }
-/* line 333, assets\less\style.less */
+/* line 330, assets\less\style.less */
 .section .pro-info .title img {
   padding: 10px;
   width: 20px;
 }
-/* line 337, assets\less\style.less */
+/* line 334, assets\less\style.less */
 .section .pro-info .title span.line:before {
   content: "";
   display: block;
@@ -752,7 +750,7 @@ img {
   top: 74px;
   left: 815px;
 }
-/* line 347, assets\less\style.less */
+/* line 344, assets\less\style.less */
 .section .pro-info .title span.line:after {
   content: "";
   display: block;
@@ -763,7 +761,7 @@ img {
   top: 74px;
   left: 985px;
 }
-/* line 358, assets\less\style.less */
+/* line 355, assets\less\style.less */
 .section .pro-info .pi {
   position: relative;
   background-image: url('../images/main/pro-info1.jpg');
@@ -771,24 +769,24 @@ img {
   background-size: 50%;
   height: 400px;
 }
-/* line 364, assets\less\style.less */
+/* line 361, assets\less\style.less */
 .section .pro-info .pi ul {
   width: 100%;
   height: 100%;
 }
-/* line 367, assets\less\style.less */
+/* line 364, assets\less\style.less */
 .section .pro-info .pi ul li {
   width: 25%;
   float: left;
 }
-/* line 371, assets\less\style.less */
+/* line 368, assets\less\style.less */
 .section .pro-info .pi ul .ve {
   height: 400px;
   background-color: rgba(44, 239, 67, 0.3);
   position: absolute;
   top: 0px;
 }
-/* line 377, assets\less\style.less */
+/* line 374, assets\less\style.less */
 .section .pro-info .pi ul .fr {
   height: 400px;
   background-color: rgba(255, 245, 104, 0.3);
@@ -796,7 +794,7 @@ img {
   top: 0px;
   left: 25%;
 }
-/* line 384, assets\less\style.less */
+/* line 381, assets\less\style.less */
 .section .pro-info .pi ul .si {
   height: 400px;
   background-color: rgba(244, 111, 38, 0.3);
@@ -804,7 +802,7 @@ img {
   top: 0px;
   left: 50%;
 }
-/* line 391, assets\less\style.less */
+/* line 388, assets\less\style.less */
 .section .pro-info .pi ul .pr {
   height: 400px;
   background-color: rgba(137, 44, 225, 0.3);
@@ -812,35 +810,35 @@ img {
   top: 0px;
   left: 75%;
 }
-/* line 400, assets\less\style.less */
+/* line 397, assets\less\style.less */
 .section .pro-info .pro-sub {
   width: 100%;
   height: 700px;
   overflow: hidden;
 }
-/* line 404, assets\less\style.less */
+/* line 401, assets\less\style.less */
 .section .pro-info .pro-sub .ps-top {
   width: 800px;
 }
-/* line 406, assets\less\style.less */
+/* line 403, assets\less\style.less */
 .section .pro-info .pro-sub .ps-top img {
   width: 100%;
   margin: 30px 30px 30px 100px;
   float: left;
 }
-/* line 415, assets\less\style.less */
+/* line 412, assets\less\style.less */
 .section .pro-info .pro-sub .ps-sub ul li {
   width: 15%;
   float: left;
   margin: 20px 10px 0 0;
   padding: 10px;
 }
-/* line 420, assets\less\style.less */
+/* line 417, assets\less\style.less */
 .section .pro-info .pro-sub .ps-sub ul li img {
   width: 100%;
   height: 200px;
 }
-/* line 424, assets\less\style.less */
+/* line 421, assets\less\style.less */
 .section .pro-info .pro-sub .ps-sub ul li span {
   display: block;
   width: 300px;
@@ -848,25 +846,25 @@ img {
   clear: left;
   text-transform: capitalize;
 }
-/* line 437, assets\less\style.less */
+/* line 434, assets\less\style.less */
 .section .recipe {
   width: 100%;
   height: 100%;
   overflow: hidden;
   top: 50px;
 }
-/* line 442, assets\less\style.less */
+/* line 439, assets\less\style.less */
 .section .recipe .rec_box {
   margin: auto;
   overflow: hidden;
 }
-/* line 445, assets\less\style.less */
+/* line 442, assets\less\style.less */
 .section .recipe .rec_box .rb_left {
   width: 30%;
   height: 28%;
   margin-left: 40px;
 }
-/* line 449, assets\less\style.less */
+/* line 446, assets\less\style.less */
 .section .recipe .rec_box .rb_left img {
   width: 100%;
   float: left;
@@ -874,7 +872,7 @@ img {
   position: relative;
   top: -30px;
 }
-/* line 458, assets\less\style.less */
+/* line 455, assets\less\style.less */
 .section .recipe .rec_box .rb_right li {
   width: 13.2%;
   height: 400px;
@@ -886,13 +884,13 @@ img {
   margin-right: 10px;
   z-index: 1;
 }
-/* line 468, assets\less\style.less */
+/* line 465, assets\less\style.less */
 .section .recipe .rec_box .rb_right li img {
   position: absolute;
   top: -10px;
   left: -225px;
 }
-/* line 475, assets\less\style.less */
+/* line 472, assets\less\style.less */
 .section .recipe .rec_box .rb_sub {
   width: 50%;
   height: 380px;
@@ -902,7 +900,7 @@ img {
   right: -46%;
   z-index: 0;
 }
-/* line 488, assets\less\style.less */
+/* line 485, assets\less\style.less */
 .section .com {
   overflow: hidden;
   background-image: url('../images/main/com_re.jpg');
@@ -911,7 +909,7 @@ img {
   background-attachment: fixed;
   position: relative;
 }
-/* line 495, assets\less\style.less */
+/* line 492, assets\less\style.less */
 .section .com h4 {
   text-transform: uppercase;
   font-size: 24px;
@@ -920,18 +918,18 @@ img {
   top: 150px;
   left: 370px;
 }
-/* line 503, assets\less\style.less */
+/* line 500, assets\less\style.less */
 .section .com .com_sub {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 507, assets\less\style.less */
+/* line 504, assets\less\style.less */
 .section .com .com_sub ul {
   width: 1200px;
   margin: auto;
 }
-/* line 511, assets\less\style.less */
+/* line 508, assets\less\style.less */
 .section .com .com_sub li {
   width: 30%;
   height: 100%;
@@ -939,7 +937,7 @@ img {
   background-color: rgba(0, 0, 0, 0.1);
   margin: 200px 10px;
 }
-/* line 517, assets\less\style.less */
+/* line 514, assets\less\style.less */
 .section .com .com_sub li p {
   color: #FFF;
   font-size: 14px;
@@ -947,7 +945,7 @@ img {
   margin: auto;
   width: 300px;
 }
-/* line 524, assets\less\style.less */
+/* line 521, assets\less\style.less */
 .section .com .com_sub li span[class^="cs_face"] {
   display: block;
   width: 80px;
@@ -958,27 +956,27 @@ img {
   left: 5%;
   margin: 10px;
 }
-/* line 534, assets\less\style.less */
+/* line 531, assets\less\style.less */
 .section .com .com_sub li .cs_facel {
   background-image: url('../images/main/facel.jpg');
   background-repeat: no-repeat;
   background-size: 200px 200px;
   background-position: -106px -4px;
 }
-/* line 540, assets\less\style.less */
+/* line 537, assets\less\style.less */
 .section .com .com_sub li .cs_facem {
   background-image: url('../images/main/facem.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 545, assets\less\style.less */
+/* line 542, assets\less\style.less */
 .section .com .com_sub li .cs_faceb {
   background-image: url('../images/main/faceb.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -19px 0px;
 }
-/* line 551, assets\less\style.less */
+/* line 548, assets\less\style.less */
 .section .com .com_sub li .cs_name {
   color: #FFF;
   width: 30px;
@@ -989,7 +987,7 @@ img {
   left: 125px;
   text-transform: capitalize;
 }
-/* line 562, assets\less\style.less */
+/* line 559, assets\less\style.less */
 .section .com .com_sub p:before {
   content: "";
   width: 20px;
@@ -1000,35 +998,35 @@ img {
   background-size: cover;
   margin: 10px 10px 0 10px;
 }
-/* line 575, assets\less\style.less */
+/* line 572, assets\less\style.less */
 .section .blog {
   background-image: url('../images/main/blog_1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
 }
-/* line 580, assets\less\style.less */
+/* line 577, assets\less\style.less */
 .section .blog ul {
   width: 1100px;
   margin: auto;
 }
-/* line 584, assets\less\style.less */
+/* line 581, assets\less\style.less */
 .section .blog ul li {
   width: 31.5%;
   float: left;
   margin-left: 18px;
 }
-/* line 588, assets\less\style.less */
+/* line 585, assets\less\style.less */
 .section .blog ul li img {
   width: 100%;
   height: 250px;
 }
-/* line 592, assets\less\style.less */
+/* line 589, assets\less\style.less */
 .section .blog ul li p {
   width: 300px;
   margin-top: 5px;
 }
-/* line 596, assets\less\style.less */
+/* line 593, assets\less\style.less */
 .section .blog ul li .date {
   font-weight: bold;
   color: grey;
@@ -1036,19 +1034,19 @@ img {
   margin: 20px 0;
   text-transform: capitalize;
 }
-/* line 603, assets\less\style.less */
+/* line 600, assets\less\style.less */
 .section .blog ul li .b_title {
   font-weight: bold;
   margin: 10px 0;
   font-size: 20px;
 }
-/* line 608, assets\less\style.less */
+/* line 605, assets\less\style.less */
 .section .blog ul li .read {
   font-weight: bold;
   color: #546A79;
   margin-top: 10px;
 }
-/* line 613, assets\less\style.less */
+/* line 610, assets\less\style.less */
 .section .blog ul li p.date:after {
   content: "";
   width: 20px;
@@ -1060,7 +1058,7 @@ img {
   background-image: url('../images/footer/chat.png');
   background-repeat: no-repeat;
 }
-/* line 624, assets\less\style.less */
+/* line 621, assets\less\style.less */
 .section .blog ul li p.date:before {
   content: "5";
   width: 20px;
@@ -1070,7 +1068,7 @@ img {
   top: -2px;
   right: 8px;
 }
-/* line 634, assets\less\style.less */
+/* line 631, assets\less\style.less */
 .section .blog ul li p.read:after {
   content: "";
   width: 15px;
