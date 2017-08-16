@@ -23,6 +23,7 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-includes": "^1.0.0",
     "grunt-serve": "^0.1.6",
+    "grunt-wow": "^0.1.4",
     "include": "^1.1.0",
     "includes": "0.0.7"
   },
