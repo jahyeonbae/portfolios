@@ -245,12 +245,12 @@ img {
 .menu-bar .slide {
   background-color: rgba(44, 239, 67, 0.3);
 }
-/* line 149, assets\less\gnb.less */
+/* line 151, assets\less\gnb.less */
 .menu-bar ul {
   width: 1250px;
   margin: 0 auto;
 }
-/* line 152, assets\less\gnb.less */
+/* line 154, assets\less\gnb.less */
 .menu-bar ul .menu {
   width: 250px;
   height: 70px;
@@ -259,7 +259,7 @@ img {
   line-height: 70px;
   position: relative;
 }
-/* line 159, assets\less\gnb.less */
+/* line 161, assets\less\gnb.less */
 .menu-bar ul .menu .bar {
   width: 180px;
   height: 3px;
@@ -270,12 +270,12 @@ img {
   background-color: #FFF;
   display: none;
 }
-/* line 169, assets\less\gnb.less */
+/* line 171, assets\less\gnb.less */
 .menu-bar ul .menu > a:hover {
   color: #8fd614;
   transition: 0.5s;
 }
-/* line 174, assets\less\gnb.less */
+/* line 176, assets\less\gnb.less */
 .menu-bar ul div {
   position: relative;
   z-index: 100;
@@ -284,7 +284,7 @@ img {
   display: none;
   transition: 1s;
 }
-/* line 181, assets\less\gnb.less */
+/* line 183, assets\less\gnb.less */
 .menu-bar ul div li {
   width: 250px;
   height: 65px;
@@ -292,16 +292,16 @@ img {
   position: relative;
   z-index: 100;
 }
-/* line 189, assets\less\gnb.less */
+/* line 191, assets\less\gnb.less */
 .menu-bar ul div li a {
   font-size: 14px;
 }
-/* line 191, assets\less\gnb.less */
+/* line 193, assets\less\gnb.less */
 .menu-bar ul div li a:hover {
   color: #8fd614;
   transition: 0.5s;
 }
-/* line 198, assets\less\gnb.less */
+/* line 200, assets\less\gnb.less */
 .menu-bar ul a {
   color: #FDF5E6;
   text-transform: uppercase;
@@ -2095,12 +2095,14 @@ img {
 /* line 1, assets\less\activity.less */
 .m_top {
   height: 180px;
+  position: relative;
+  z-index: 0;
   background-image: url('../images/au/au_bg.jpg');
   background-repeat: no-repeat;
   background-position-y: -580px;
   background-size: cover;
 }
-/* line 7, assets\less\activity.less */
+/* line 9, assets\less\activity.less */
 .m_top h4 {
   color: #FFF;
   font-size: 24px;
@@ -2108,25 +2110,25 @@ img {
   text-align: center;
   padding: 40px;
 }
-/* line 15, assets\less\activity.less */
+/* line 17, assets\less\activity.less */
 .act_section {
   margin: 0 360px;
   position: relative;
   top: -60px;
   overflow: hidden;
 }
-/* line 20, assets\less\activity.less */
+/* line 22, assets\less\activity.less */
 .act_section .as_left {
   width: 880px;
   height: 100%;
   float: left;
   background-color: #FFF;
 }
-/* line 25, assets\less\activity.less */
+/* line 27, assets\less\activity.less */
 .act_section .as_left ul {
   margin: 60px 0 0 90px ;
 }
-/* line 27, assets\less\activity.less */
+/* line 29, assets\less\activity.less */
 .act_section .as_left ul li {
   width: 200px;
   height: 300px;
@@ -2134,19 +2136,19 @@ img {
   float: left;
   padding: 15px;
 }
-/* line 33, assets\less\activity.less */
+/* line 35, assets\less\activity.less */
 .act_section .as_left ul li img {
   width: 300%;
   overflow: hidden;
 }
-/* line 40, assets\less\activity.less */
+/* line 42, assets\less\activity.less */
 .act_section .as_right {
   width: 300px;
   height: 1100px;
   margin-left: 900px;
   background-color: #fff;
 }
-/* line 45, assets\less\activity.less */
+/* line 47, assets\less\activity.less */
 .act_section .as_right h4 {
   height: 30px;
   text-transform: uppercase;
@@ -2154,11 +2156,11 @@ img {
   text-align: center;
   line-height: 30px;
 }
-/* line 52, assets\less\activity.less */
+/* line 54, assets\less\activity.less */
 .act_section .as_right .asr_top {
   margin-bottom: 10px;
 }
-/* line 54, assets\less\activity.less */
+/* line 56, assets\less\activity.less */
 .act_section .as_right .asr_top li {
   height: 30px;
   text-transform: uppercase;
@@ -2169,13 +2171,13 @@ img {
   padding: 10px;
   background-color: #f0f0f0;
 }
-/* line 65, assets\less\activity.less */
+/* line 67, assets\less\activity.less */
 .act_section .as_right .asr_mid {
   height: 250px;
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 70, assets\less\activity.less */
+/* line 72, assets\less\activity.less */
 .act_section .as_right .asr_bot {
   height: 250px;
   overflow: hidden;
@@ -2730,7 +2732,7 @@ img {
 .wrap {
   background-color: #F0F0F0;
 }
-/* line 18, assets\less\aboutus.less */
+/* line 3, assets\less\aboutus.less */
 .wrap .au_section {
   width: 1200px;
   height: 1100px;
@@ -2740,42 +2742,42 @@ img {
   background-color: #FFF;
   overflow: hidden;
 }
-/* line 27, assets\less\aboutus.less */
+/* line 12, assets\less\aboutus.less */
 .wrap .au_section .au_top h4 {
   font-size: 24px;
   text-align: center;
   padding: 50px 10px 10px 10px;
   text-transform: uppercase;
 }
-/* line 33, assets\less\aboutus.less */
+/* line 18, assets\less\aboutus.less */
 .wrap .au_section .au_top p {
   padding: 10px 100px;
 }
-/* line 36, assets\less\aboutus.less */
+/* line 21, assets\less\aboutus.less */
 .wrap .au_section .au_top .au_img {
   width: 990px;
   margin-left: 100px;
   overflow: hidden;
 }
-/* line 40, assets\less\aboutus.less */
+/* line 25, assets\less\aboutus.less */
 .wrap .au_section .au_top .au_img img {
   width: 100%;
 }
-/* line 46, assets\less\aboutus.less */
+/* line 31, assets\less\aboutus.less */
 .wrap .au_section .au_bot h4 {
   font-size: 24px;
   text-align: center;
   padding: 50px 10px 10px 10px;
   text-transform: uppercase;
 }
-/* line 52, assets\less\aboutus.less */
+/* line 37, assets\less\aboutus.less */
 .wrap .au_section .au_bot li {
   padding: 5px;
   float: left;
   width: 23.5%;
   margin: 10px 5px 10px 0;
 }
-/* line 57, assets\less\aboutus.less */
+/* line 42, assets\less\aboutus.less */
 .wrap .au_section .au_bot li img {
   width: 100%;
 }
