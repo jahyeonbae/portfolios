@@ -53,9 +53,16 @@ $(function(){
          })
       })
 
-      $('.ps-top').mouseover(function(){
+      // $('.ps-top').mouseover(function(){
+      //   $(this).children('div').css({display:"block"}).fadeIn()
+      //   $('.ps-top').mouseleave(function(){
+      //     $(this).children('div').fadeOut()
+      //   })
+      // })
+
+      $('.ps-sub>ul>li').mouseover(function(){
         $(this).children('div').css({display:"block"}).fadeIn()
-        $('.ps-top').mouseleave(function(){
+        $('.ps-sub>ul>li').mouseleave(function(){
           $(this).children('div').fadeOut()
         })
       })
