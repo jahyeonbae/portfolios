@@ -836,52 +836,97 @@ img {
 .section .pro-info .pro-sub {
   width: 100%;
   height: 700px;
-  overflow: hidden;
 }
-/* line 412, assets\less\style.less */
-.section .pro-info .pro-sub .ps-top li {
+/* line 411, assets\less\style.less */
+.section .pro-info .pro-sub .ps-top {
+  float: left;
   width: 800px;
   position: relative;
-  transition: 1s;
 }
 /* line 416, assets\less\style.less */
-.section .pro-info .pro-sub .ps-top li img {
+.section .pro-info .pro-sub .ps-top .slide {
   width: 100%;
-  display: none;
+  height: 500px;
+  overflow: hidden;
+  margin: 30px 30px 30px 100px;
+  position: relative;
 }
-/* line 421, assets\less\style.less */
-.section .pro-info .pro-sub .ps-top .pt {
-  width: 100%;
-  height: 650px;
-  background: rgba(0, 0, 0, 0.5);
+/* line 424, assets\less\style.less */
+.section .pro-info .pro-sub .ps-top .btngr button {
   position: absolute;
-  z-index: 1;
-  top: 30px;
-  left: 100px;
-  display: none;
+  z-index: 10;
+  width: 40px;
+  height: 25px;
 }
 /* line 430, assets\less\style.less */
-.section .pro-info .pro-sub .ps-top .pt img {
-  width: 5%;
-  height: 5%;
-  position: relative;
-  top: 180px;
-  left: 110px;
-  z-index: 100;
+.section .pro-info .pro-sub .ps-top button.next {
+  top: 300px;
+  right: -10%;
 }
-/* line 439, assets\less\style.less */
-.section .pro-info .pro-sub .ps-top img {
-  width: 100%;
-  margin: 30px 30px 30px 100px;
-  float: left;
+/* line 433, assets\less\style.less */
+.section .pro-info .pro-sub .ps-top button.prev {
+  top: 300px;
+  left: 15%;
+}
+/* line 437, assets\less\style.less */
+.section .pro-info .pro-sub .ps-top li {
   transition: 1s;
 }
-/* line 445, assets\less\style.less */
-.section .pro-info .pro-sub .ps-top img:hover {
-  transform: scale(1.1) scale3d();
-  cursor: pointer;
+/* line 439, assets\less\style.less */
+.section .pro-info .pro-sub .ps-top li a {
+  position: absolute;
+  background-color: #FFF;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  z-index: 10;
 }
-/* line 453, assets\less\style.less */
+/* line 447, assets\less\style.less */
+.section .pro-info .pro-sub .ps-top li:nth-child(1) a {
+  top: 470px;
+  left: 620px;
+}
+/* line 451, assets\less\style.less */
+.section .pro-info .pro-sub .ps-top li:nth-child(2) a {
+  top: 470px;
+  left: 650px;
+}
+/* line 455, assets\less\style.less */
+.section .pro-info .pro-sub .ps-top li:nth-child(3) a {
+  top: 470px;
+  left: 680px;
+}
+/* line 459, assets\less\style.less */
+.section .pro-info .pro-sub .ps-top li:nth-child(4) a {
+  top: 470px;
+  left: 710px;
+}
+/* line 463, assets\less\style.less */
+.section .pro-info .pro-sub .ps-top li:nth-child(5) a {
+  top: 470px;
+  left: 740px;
+}
+/* line 467, assets\less\style.less */
+.section .pro-info .pro-sub .ps-top li img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 8;
+  transition: 1s;
+}
+/* line 478, assets\less\style.less */
+.section .pro-info .pro-sub .ps-top li.on a {
+  background-color: tomato;
+}
+/* line 493, assets\less\style.less */
+.section .pro-info .pro-sub .ps-sub {
+  float: right;
+  width: 900px;
+}
+/* line 497, assets\less\style.less */
 .section .pro-info .pro-sub .ps-sub ul li {
   width: 260px;
   height: 200px;
@@ -889,22 +934,22 @@ img {
   margin: 40px 10px 15px 0;
   position: relative;
 }
-/* line 459, assets\less\style.less */
+/* line 503, assets\less\style.less */
 .section .pro-info .pro-sub .ps-sub ul li img {
   width: 100%;
   height: 200px;
 }
-/* line 463, assets\less\style.less */
+/* line 507, assets\less\style.less */
 .section .pro-info .pro-sub .ps-sub ul li span {
   display: inline-block;
   text-transform: capitalize;
   margin: 10px 0 0 110px;
 }
-/* line 468, assets\less\style.less */
+/* line 512, assets\less\style.less */
 .section .pro-info .pro-sub .ps-sub ul li .not {
   margin: 10px 0 0 60px;
 }
-/* line 471, assets\less\style.less */
+/* line 515, assets\less\style.less */
 .section .pro-info .pro-sub .ps-sub ul li div[class^=ps-pt-] {
   background-color: rgba(0, 0, 0, 0.5);
   width: 260px;
@@ -914,13 +959,13 @@ img {
   left: 0;
   display: none;
 }
-/* line 479, assets\less\style.less */
+/* line 523, assets\less\style.less */
 .section .pro-info .pro-sub .ps-sub ul li div[class^=ps-pt-] li {
   width: 25px;
   height: 25px;
   margin-right: 15px;
 }
-/* line 483, assets\less\style.less */
+/* line 527, assets\less\style.less */
 .section .pro-info .pro-sub .ps-sub ul li div[class^=ps-pt-] li img {
   width: 100%;
   height: 100%;
@@ -928,25 +973,25 @@ img {
   top: 55px;
   left: 70px;
 }
-/* line 498, assets\less\style.less */
+/* line 542, assets\less\style.less */
 .section .recipe {
   width: 100%;
   height: 100%;
   overflow: hidden;
   top: 50px;
 }
-/* line 503, assets\less\style.less */
+/* line 547, assets\less\style.less */
 .section .recipe .rec_box {
   margin: auto;
   overflow: hidden;
 }
-/* line 506, assets\less\style.less */
+/* line 550, assets\less\style.less */
 .section .recipe .rec_box .rb_left {
   width: 30%;
   height: 28%;
   margin-left: 40px;
 }
-/* line 510, assets\less\style.less */
+/* line 554, assets\less\style.less */
 .section .recipe .rec_box .rb_left img {
   width: 100%;
   float: left;
@@ -954,7 +999,7 @@ img {
   position: relative;
   top: -30px;
 }
-/* line 519, assets\less\style.less */
+/* line 563, assets\less\style.less */
 .section .recipe .rec_box .rb_right li {
   width: 13.2%;
   height: 400px;
@@ -966,13 +1011,13 @@ img {
   margin-right: 10px;
   z-index: 1;
 }
-/* line 529, assets\less\style.less */
+/* line 573, assets\less\style.less */
 .section .recipe .rec_box .rb_right li img {
   position: absolute;
   top: -10px;
   left: -225px;
 }
-/* line 536, assets\less\style.less */
+/* line 580, assets\less\style.less */
 .section .recipe .rec_box .rb_sub {
   width: 50%;
   height: 380px;
@@ -982,7 +1027,7 @@ img {
   right: -46%;
   z-index: 0;
 }
-/* line 548, assets\less\style.less */
+/* line 592, assets\less\style.less */
 .section .com {
   overflow: hidden;
   background-image: url('../images/main/com_re.jpg');
@@ -991,7 +1036,7 @@ img {
   background-attachment: fixed;
   position: relative;
 }
-/* line 555, assets\less\style.less */
+/* line 599, assets\less\style.less */
 .section .com h4 {
   text-transform: uppercase;
   font-size: 24px;
@@ -1000,18 +1045,18 @@ img {
   top: 150px;
   left: 370px;
 }
-/* line 563, assets\less\style.less */
+/* line 607, assets\less\style.less */
 .section .com .com_sub {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 567, assets\less\style.less */
+/* line 611, assets\less\style.less */
 .section .com .com_sub ul {
   width: 1200px;
   margin: auto;
 }
-/* line 571, assets\less\style.less */
+/* line 615, assets\less\style.less */
 .section .com .com_sub li {
   width: 30%;
   height: 100%;
@@ -1019,7 +1064,7 @@ img {
   background-color: rgba(0, 0, 0, 0.1);
   margin: 200px 10px;
 }
-/* line 577, assets\less\style.less */
+/* line 621, assets\less\style.less */
 .section .com .com_sub li p {
   color: #FFF;
   font-size: 14px;
@@ -1027,7 +1072,7 @@ img {
   margin: auto;
   width: 300px;
 }
-/* line 584, assets\less\style.less */
+/* line 628, assets\less\style.less */
 .section .com .com_sub li span[class^="cs_face"] {
   display: block;
   width: 80px;
@@ -1038,27 +1083,27 @@ img {
   left: 5%;
   margin: 10px;
 }
-/* line 594, assets\less\style.less */
+/* line 638, assets\less\style.less */
 .section .com .com_sub li .cs_facel {
   background-image: url('../images/main/facel.jpg');
   background-repeat: no-repeat;
   background-size: 200px 200px;
   background-position: -106px -4px;
 }
-/* line 600, assets\less\style.less */
+/* line 644, assets\less\style.less */
 .section .com .com_sub li .cs_facem {
   background-image: url('../images/main/facem.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 605, assets\less\style.less */
+/* line 649, assets\less\style.less */
 .section .com .com_sub li .cs_faceb {
   background-image: url('../images/main/faceb.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -19px 0px;
 }
-/* line 611, assets\less\style.less */
+/* line 655, assets\less\style.less */
 .section .com .com_sub li .cs_name {
   color: #FFF;
   width: 30px;
@@ -1069,7 +1114,7 @@ img {
   left: 125px;
   text-transform: capitalize;
 }
-/* line 622, assets\less\style.less */
+/* line 666, assets\less\style.less */
 .section .com .com_sub p:before {
   content: "";
   width: 20px;
@@ -1080,35 +1125,35 @@ img {
   background-size: cover;
   margin: 10px 10px 0 10px;
 }
-/* line 635, assets\less\style.less */
+/* line 679, assets\less\style.less */
 .section .blog {
   background-image: url('../images/main/blog_1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
 }
-/* line 640, assets\less\style.less */
+/* line 684, assets\less\style.less */
 .section .blog ul {
   width: 1100px;
   margin: auto;
 }
-/* line 644, assets\less\style.less */
+/* line 688, assets\less\style.less */
 .section .blog ul li {
   width: 31.5%;
   float: left;
   margin-left: 18px;
 }
-/* line 648, assets\less\style.less */
+/* line 692, assets\less\style.less */
 .section .blog ul li img {
   width: 100%;
   height: 250px;
 }
-/* line 652, assets\less\style.less */
+/* line 696, assets\less\style.less */
 .section .blog ul li p {
   width: 300px;
   margin-top: 5px;
 }
-/* line 656, assets\less\style.less */
+/* line 700, assets\less\style.less */
 .section .blog ul li .date {
   font-weight: bold;
   color: grey;
@@ -1116,19 +1161,19 @@ img {
   margin: 20px 0;
   text-transform: capitalize;
 }
-/* line 663, assets\less\style.less */
+/* line 707, assets\less\style.less */
 .section .blog ul li .b_title {
   font-weight: bold;
   margin: 10px 0;
   font-size: 20px;
 }
-/* line 668, assets\less\style.less */
+/* line 712, assets\less\style.less */
 .section .blog ul li .read {
   font-weight: bold;
   color: #546A79;
   margin-top: 10px;
 }
-/* line 673, assets\less\style.less */
+/* line 717, assets\less\style.less */
 .section .blog ul li p.date:after {
   content: "";
   width: 20px;
@@ -1140,7 +1185,7 @@ img {
   background-image: url('../images/footer/chat.png');
   background-repeat: no-repeat;
 }
-/* line 684, assets\less\style.less */
+/* line 728, assets\less\style.less */
 .section .blog ul li p.date:before {
   content: "5";
   width: 20px;
@@ -1150,7 +1195,7 @@ img {
   top: -2px;
   right: 8px;
 }
-/* line 694, assets\less\style.less */
+/* line 738, assets\less\style.less */
 .section .blog ul li p.read:after {
   content: "";
   width: 15px;
