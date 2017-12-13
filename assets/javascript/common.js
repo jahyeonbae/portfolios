@@ -68,7 +68,7 @@ $(function(){
       })
 
      var idx = Math.floor(Math.random()*$('.slide li').length);
-     var w = $('.slide li').width();
+     var w = $('.slide').width();
      var speed = 3000;
 
      var call = function(){
@@ -97,15 +97,18 @@ $(function(){
       })
 
       idx++;
+
       if(idx == $('.slide li').length){
         idx = 0;
+
         $('.slide li').eq(idx).addClass('on').find('img').css({
           'display' : 'block',
           'left' : w
         }).stop().animate({
-          'left' :'0'
+          'left' : '0'
         })
       }
+      console.log(idx);
     })
 
     $('.prev').click(function(){
@@ -130,7 +133,7 @@ $(function(){
       }
     })
 
-    $('.slide li').click(function(){
+    $('.slide li a').click(function(){
       idx = $(this).parent().index();
       hisnum = $('.slide li.on').index();
       if(hisnum < idx){
@@ -144,7 +147,7 @@ $(function(){
           'left' : 0
         });
       } else if(hisnum > idx){
-        $('.slide li').eq(hisnum).removeClass('on').finde('img').animate({
+        $('.slide li').eq(hisnum).removeClass('on').find('img').animate({
           'left':w
         });
         $('.slide li').eq(idx).addClass('on').find('img').css({
