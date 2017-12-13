@@ -67,64 +67,66 @@ $(function(){
         })
       })
 
-     var idx = Math.floor(Math.random()*$('.slide li').length);
-     var w = $('.slide').width();
+     var idx = Math.floor(Math.random()*$('#slide li').length);
+
+     var w = $('#slide li').width();
      var speed = 3000;
 
-     var call = function(){
-       $('.next').trigger('click');
-     };
+     // var call = function(){
+     //   $('.next').trigger('click');
+     // };
+     //
+     // $('#slide li').eq(idx).addClass('on').find('img').css('display','block');
+     //
+     // var tt = setInterval(call, speed);
+     // $('#slide li img').mouseleave(function(){
+     //   clearInterval(tt);
+     // })
+     //
+     // $('#slide li img').mouseleave(function(){
+     //   tt = setInterval(call, speed);
+     // })
 
-     $('.slide li').eq(idx).addClass('on').find('img').css('display','block');
-
-     var tt = setInterval(call, speed);
-     $('.slide li img').mouseleave(function(){
-       clearInterval(tt);
-     })
-
-     $('.slide li img').mouseleave(function(){
-       tt = setInterval(call, speed);
-     })
 
      $('.next').click(function(){
-       $('.slide li').eq(idx).removeClass('on').find('img').animate({
-        'left': -w
+       $('#slide li').eq(idx).removeClass('on').find('img').animate({
+        'left':-w
       }).parent().next().addClass('on').find('img').css({
         'display':'block',
-        'left': w
+        'left':w
       }).stop().animate({
-        'left':'0'
+        'left':0
       })
 
       idx++;
+console.log(idx);
 
-      if(idx == $('.slide li').length){
+      if(idx == $('#slide li').length){
         idx = 0;
-
-        $('.slide li').eq(idx).addClass('on').find('img').css({
+        console.log(idx);
+        $('#slide li').eq(idx).addClass('on').find('img').css({
           'display' : 'block',
-          'left' : w
+          'left':w
         }).stop().animate({
-          'left' : '0'
+          'left':0
         })
       }
-      console.log(idx);
     })
 
     $('.prev').click(function(){
-      $('.slide li').eq(idx).removeClass('on').find("img").animate({
+      $('#slide li').eq(idx).find('img').animate({
         'left': w
-      }).parent().prev().addClass('on').find("img").css({
+      }).parent().prev().find('img').css({
         'display':'block' ,
-        'left': -w
+        'left':-w
       }).stop().animate({
         'left':'0'
       })
 
       idx--;
       if(idx < 0){
-        idx = $('.slide li').length -1;
-        $('.slide li').eq(idx).addClass('on').find("img").css({
+        idx = $('#slide li').length -1;
+        $('#slide li').eq(idx).find('img').css({
           'display' : 'block' ,
           'left' : -w
         }).stop().animate({
@@ -133,24 +135,24 @@ $(function(){
       }
     })
 
-    $('.slide li a').click(function(){
+    $('#slide li a').click(function(){
       idx = $(this).parent().index();
-      hisnum = $('.slide li.on').index();
+      hisnum = $('#slide li.on').index();
       if(hisnum < idx){
-        $('.slide li').eq(hisnum).removeClass('on').find('img').animate({
+        $('#slide li').eq(hisnum).removeClass('on').find('img').animate({
           'left': -w
         });
-        $('.slide li').eq(idx).addClass('on').find('img').css({
+        $('#slide li').eq(idx).addClass('on').find('img').css({
           'display' : 'block' ,
           'left' : w
         }).animate({
           'left' : 0
         });
       } else if(hisnum > idx){
-        $('.slide li').eq(hisnum).removeClass('on').find('img').animate({
+        $('#slide li').eq(hisnum).removeClass('on').find('img').animate({
           'left':w
         });
-        $('.slide li').eq(idx).addClass('on').find('img').css({
+        $('#slide li').eq(idx).addClass('on').find('img').css({
           'display':'block' ,
           'left' : -w
         }).animate({
